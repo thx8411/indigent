@@ -1,0 +1,220 @@
+1) Download and flash "Raspberry Pi OS Lite 64 bits" on a 8GB sd card
+
+	* with pi imager :
+		- hostname : indigent
+		- user : indi
+		- passwd : indi
+		- enable SSH
+		- enable wifi client
+
+2) login with ssh indi@indigent, and with raspi-config
+
+	* disable OneWire, I2C, etc.
+	* switch video RAM to 16MB (smallest amount)
+	
+	locales :
+	
+	* GB UTF8
+	* FR UTF8
+	
+	reboot
+
+3a) Add smos.list repository in /etc/apt/sources.list.d with :
+
+	deb [trusted=yes] https://ppa.stellarmate.com/repos/apt/stable bullseye main
+	
+	or
+	
+	deb [trusted=yes] https://www.astroberry.io/repo bullseye main
+
+3b) Add INDIgent.list repository in /etc/apt/sources.list.d with :
+
+	# INDIgent armhf 32 bits INDI and INDI 3rd party repository
+	deb [trusted=yes] https://raw.githubusercontent.com/thx8411/indigent/main/packages ./	
+
+
+4) "sudo apt update" and "sudo apt upgrade". Reboot
+
+5a) "sudo apt install indi-full"
+
+	or
+
+5b) "sudo apt install libindi1 libindi-data indi-bin indi-eqmod indi-sx indi-sbig indi-apogee indi-gphoto indi-qsi indi-fishcamp indi-maxdomeii indi-asi indi-aagcloudwatcher-ng indi-ffmv indi-dsi indi-qhy indi-gpsd indi-mi indi-duino indi-fli indi-nexdome indi-gpsnmea indi-armadillo-platypus indi-mgen indi-shelyak indi-nightscape indi-toupbase indi-atik indi-avalon indi-starbook indi-starbook-ten indi-astromechfoc indi-dreamfocuser indi-aok indi-talon6 indi-pentax indi-celestronaux indi-svbony indi-bresserexos2 indi-playerone indi-beefocus indi-weewx-json"
+
+6) Install indi web manager :
+
+	sudo apt-get install python3-pip
+	sudo -H pip3 install indiweb
+
+	launch indi-web at startup as a service :
+	
+	file /etc/systemd/system/indiwebmanager.service
+
+	<<
+	[Unit]
+	Description=INDI Web Manager
+	After=multi-user.target
+
+	[Service]
+	Type=idle
+	User=indi
+	ExecStart=/usr/local/bin/indi-web -v
+	Restart=always
+	RestartSec=5
+
+	[Install]
+	WantedBy=multi-user.target
+	>>
+	 
+	sudo chmod 644 indiwebmanager.service
+	
+	sudo systemctl daemon-reload
+	sudo systemctl enable indiwebmanager
+	sudo init 6
+	
+7) Add hotspot
+
+	sudo apt-get install hostapd
+
+	sudo apt-get install dnsmasq
+		
+	sudo systemctl stop hostapd
+
+	sudo systemctl stop dnsmasq
+	
+	add to /etc/dhcpcd.conf :
+	
+	<<
+	interface wlan0
+	nohook wpa_supplicant
+	static ip_address=192.168.0.10/24 
+	>>
+	
+	in /etc/dnsmasq.conf, comment everything and add :
+	
+	<<
+	interface=wlan0
+	bogus-priv
+	no-hosts
+	expand-hosts
+	domain=local
+	address=/indigent.local/192.168.0.10
+
+	dhcp-range=192.168.0.11,192.168.0.30,255.255.255.0,24h
+	>>
+	
+	create /etc/hostapd/hostapd.conf :
+	
+	<<
+	interface=wlan0
+	driver=nl80211
+
+	ssid=INDIgent
+
+	# 2.4 GHz
+	#hw_mode=g
+	#channel=7
+	#country_code=FR
+
+	# 5 GHz
+	hw_mode=a
+	channel=40
+	ieee80211n=1
+	require_ht=1
+	ht_capab=[HT40-][DSSS_CCK-40]
+
+	wmm_enabled=1
+	ignore_broadcast_ssid=0
+	macaddr_acl=0
+
+	auth_algs=1
+	wpa=2
+	wpa_key_mgmt=WPA-PSK
+	wpa_pairwise=TKIP
+	rsn_pairwise=CCMP
+	wpa_passphrase=indigent
+	>>
+
+	sudo nano /etc/default/hostapd
+	
+	<<
+	DAEMON_CONF="/etc/hostapd/hostapd.conf"
+	>>
+
+	sudo systemctl enable dnsmasq
+	sudo systemctl start dnsmasq
+	
+	sudo systemctl stop wpa_supplicant
+	sudo systemctl disable wpa_supplicant
+	
+	sudo systemctl unmask hostapd
+	sudo systemctl enable hostapd
+	sudo systemctl start hostapd
+
+
+
+
+8) IN PROGRESS : admin web interface
+
+	create /etc/httpd.conf :
+	
+	<<
+	# local access point only
+	A:192.168.0.
+	>>
+	
+	create /opt/www folder as root
+	
+	create /opt/www/cgi-bin as root
+	
+	create /etc/systemd/system/httpd.service
+	
+	<<
+	[Unit]
+	Description=BusyBox http server
+	After=network-online.target
+	Wants=network-online.target
+
+	[Service]
+	Type=simple
+	ExecStart=/usr/bin/busybox httpd -f -c /etc/httpd.conf -p 192.168.0.10:80 -h /opt/www
+	TimeoutStartSec=5
+
+	[Install]
+	WantedBy=multi-user.target
+	>>
+	
+	sudo systemctl daemon-reload
+	sudo systemctl enable httpd
+	sudo systemctl start httpd
+
+
+	TODO :
+	 
+	- show status : OK
+	- change indi user passwd
+	- change SSID
+	- change wifi passwd
+	- change wifi frequencies
+	- change wifi channel
+	- updates : in progress
+	- stop : OK
+	- reboot : OK
+	- reset settings : in progress
+
+9) generate image
+
+	dd if=/dev/... of=xxxx.img bs=4M status=progress
+	pishrink -Z xxxx.img yyyy.img.xz
+
+10) TODO : Documentation
+
+NOTES :
+
+* RAM usage : about 170MB (idle = 80MB)
+* DISK usage : about 1.8GB
+
+* DietPi version ?
+
+	
+
