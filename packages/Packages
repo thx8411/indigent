@@ -1,0 +1,2835 @@
+Package: indi-aagcloudwatcher-ng
+Version: 1.7
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 93
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-aagcloudwatcher-ng_1.7_armhf.deb
+Size: 22996
+MD5sum: f32cbce40807deca08c83c73e41ae3ed
+SHA1: 42017b3bf3d1fcb48810f8d9595042ed8e46c891
+SHA256: fe8e4ec7efbe45e6798aa5e225ffb3f395bbbe58b11cedbf6265d1457a108db2
+Section: science
+Priority: extra
+Description: INDI driver for the AAG Cloud Watcher (new api version and anemometer support)
+ INDI driver for the AAG Cloud Watcher using the new INDI Weather API and with anemometer support
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-aagcloudwatcher-ng-dbg
+Source: indi-aagcloudwatcher-ng
+Version: 1.7
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 225
+Depends: indi-aagcloudwatcher-ng (= 1.7)
+Filename: ./indi-aagcloudwatcher-ng-dbg_1.7_armhf.deb
+Size: 194336
+MD5sum: 687ebf6b2fdc6d28ec49777160426bda
+SHA1: 5b2df93c763952dd195042a9a61964133a52ea2b
+SHA256: 48b4e2de7f78fcde24e4cb8aa2063e0dff4170ebf90af5b47fefde770810b1c6
+Section: debug
+Priority: extra
+Description: INDI driver for the AAG Cloud Watcher
+ INDI driver for the AAG Cloud Watcher
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 541d9f490d303688485b8703fe7f51c5d63d50c2 c6fa17ad5ab6a70f2b0ed2dd229aa17e2826941c
+
+Package: indi-ahp-xc
+Version: 0.3
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 211
+Depends: libahp-xc, libc6 (>= 2.29), libcfitsio9 (>= 3.480~), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 6)
+Filename: ./indi-ahp-xc_0.3_armhf.deb
+Size: 57844
+MD5sum: dd2d1704d673eef0c03f1253c8b3b507
+SHA1: 771e79f9f5934304c0c7b935e30c75e0cca5754f
+SHA256: 0a365da4582f2928c2676c9aba93f04343aa9f5c0a2924bcaa13b4dfeb177ccb
+Section: science
+Priority: extra
+Description: Telescope Array driver for INDI with support for AHP cross-correlators
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-ahp-xc-dbg
+Source: indi-ahp-xc
+Version: 0.3
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 810
+Depends: indi-ahp-xc (= 0.3)
+Filename: ./indi-ahp-xc-dbg_0.3_armhf.deb
+Size: 758184
+MD5sum: 70629e48a17b49a6c0b7af48710798ec
+SHA1: 4c74c85b522f258a61e34b4a55912d1e5d4ed035
+SHA256: bb78896e5d595de9f1f1d9ae1e2a1695315f2b31b015f8160dc63e16569e3aab
+Section: debug
+Priority: extra
+Description: Telescope Array driver for INDI with support for AHP cross-correlators
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 4ed0c3af7327e437baf3ce61b6b75147d58db141
+
+Package: indi-aok
+Version: 2.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 70
+Depends: libc6 (>= 2.7), libgcc-s1 (>= 3.5), libindi1, libnova-0.16-0 (>= 0.16), libstdc++6 (>= 5.2), zlib1g
+Filename: ./indi-aok_2.0_armhf.deb
+Size: 20192
+MD5sum: 0a035bd59cf88405cb6231d5eb57b54a
+SHA1: dfdc73e9275075ac26311c079889b9693fda11f8
+SHA256: 024e16458645f498811183bd038ad42bd9ccfaccee81ff7dd8ee26b9ec752812
+Section: science
+Priority: extra
+Description: INDI AOK Skywalker Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-aok-dbg
+Source: indi-aok
+Version: 2.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 151
+Depends: indi-aok (= 2.0)
+Filename: ./indi-aok-dbg_2.0_armhf.deb
+Size: 125696
+MD5sum: c02aade9c698f954eb40f3557efc1a9d
+SHA1: e9dcd8742b410f0fea2f0abb903927eaf69be140
+SHA256: d8e931a3de9523406119383e7e336de4ed4741aca3b08841558c93a0d9581cac
+Section: debug
+Priority: extra
+Description: INDI AOK Skywalker Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 0a4c236d97230eb046c83e8282844416640a72d2
+
+Package: indi-apogee
+Version: 1.9
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 122
+Depends: libapogee3, libc6 (>= 2.7), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 9)
+Filename: ./indi-apogee_1.9_armhf.deb
+Size: 32240
+MD5sum: 3e58747fcb016864d9ff48580ee1b3b6
+SHA1: e5dede9741ab69fc642b1c7abbc574df0629afde
+SHA256: a80e0a219b3e44bba849aceba5058d2fd955ded56c1307d8357b03b9f9b01d60
+Section: science
+Priority: extra
+Description: INDI driver for Apogee CCDs and Filter Wheels
+ INDI Driver for Apogee CCDs and Filter Wheels
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-apogee-dbg
+Source: indi-apogee
+Version: 1.9
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 368
+Depends: indi-apogee (= 1.9)
+Filename: ./indi-apogee-dbg_1.9_armhf.deb
+Size: 328748
+MD5sum: b48c8aebeec4d9b01a0364f9fb23fd6c
+SHA1: 615b166d1b1d60102fe307dd410ed3328fefd693
+SHA256: 1fe92b0ebc42ff46a964b10f2a687dafff77ba82f211cc09f2063ccb1927b00e
+Section: science
+Priority: extra
+Description: INDI driver for Apogee CCDs and Filter Wheels
+ INDI Driver for Apogee CCDs and Filter Wheels
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: a43468e784da097cee55f7fe5b10c236fd641003 cacaf28afe4800bc56296bfe00f973d3a3e0779b
+
+Package: indi-armadillo-platypus
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 556
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-armadillo-platypus_1.0_armhf.deb
+Size: 82580
+MD5sum: 7bb2e4b3839a750a1b3cd9ac09728529
+SHA1: a5d2899e2774aa6ad261f8d377bedd195ad758c8
+SHA256: 59f0ba7deee1b1c053beb5420de253da8135f3d33fd62b65dafe1ddb1b205a99
+Section: science
+Priority: extra
+Description: Lunatico Armadillo and Platypus Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-armadillo-platypus-dbg
+Source: indi-armadillo-platypus
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 2177
+Depends: indi-armadillo-platypus (= 1.0)
+Filename: ./indi-armadillo-platypus-dbg_1.0_armhf.deb
+Size: 2018932
+MD5sum: ce6c71d8cce11f1f4a3eb8ad4938dfd0
+SHA1: f098056f7d1c0e06060e8256ee6e070f6bce8612
+SHA256: 5c4254b09b15cdc8fea4b02e23f823641ea6901dc5d4e6524c8871149854764f
+Section: debug
+Priority: extra
+Description: Lunatico Armadillo and Platypus Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 08e0127677211553b2b62066dde9468f3c338c0e 41266a0aa523c845a05398e7922eb2a3f39b226a 4d1fb6f4ea319020c6faf8e1da7ae1afa8f01b9a a22c7f211cce4c8b2c2a32ec10daaabb2e079e23 c9cda57bd1eccfb42438935032f7949404bd004a
+
+Package: indi-asi
+Version: 2.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 285
+Depends: libc6 (>= 2.7), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2), libasi
+Conflicts: indi-asicam
+Replaces: indi-asicam
+Filename: ./indi-asi_2.2_armhf.deb
+Size: 62700
+MD5sum: 610a7c847edb75f82646e1841d9590e5
+SHA1: abd3b858c643e8d5b9109982de38d5f44b191a99
+SHA256: 7fe66e0c5bb9d8108831cc152c49a1c322c7d7455cdbc1e4947c0867cac4e480
+Section: science
+Priority: extra
+Description: INDI Driver for ZWO Optics ASI cameras
+ Driver for ZWO Optics ASI cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-asi-dbg
+Source: indi-asi
+Version: 2.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 1001
+Depends: indi-asi (= 2.2)
+Conflicts: indi-asicam-dbg
+Replaces: indi-asicam-dbg
+Filename: ./indi-asi-dbg_2.2_armhf.deb
+Size: 888576
+MD5sum: f34cc5fa78dae1f5f32108c6b0d6d701
+SHA1: a948c264086c65d54f172c4d4489685c411f9848
+SHA256: 0c3a1d17ce581b2bb1c8d8e50d4c5394dd0c338ba32b360717131595014aa369
+Section: debug
+Priority: extra
+Description: INDI Driver for ZWO Optics ASI cameras
+ Driver for ZWO Optics ASI cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 31dc7e743fce50b1deae0aef066eecfa6c4d4e53 4dfd62820ad78c963fcb319a72170163a1a3236b 5185580cdb792654dc32df939adfcaf62cb5264e 7266e36f7f85a85db51e95fd07dba54f9cbfd513 841b4ac694c93105cda776a1b6782b571f8313d6 c69f7e5c284b6cb8e4641205f1437a971e81b0ea
+
+Package: indi-asi-power
+Version: 0.95
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 55
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libpigpiod-if2-1, libstdc++6 (>= 5.2), libpigpiod
+Filename: ./indi-asi-power_0.95_armhf.deb
+Size: 16280
+MD5sum: 50d3824b0b84c32757424e22a63120c3
+SHA1: a42859ec7a6d1e7a37dc62f499316f5128c4a87d
+SHA256: 9214dd4569c37cc1a38b5fd2191d39fdd1d284ff5610f40f1c9f3cf5fade0ebe
+Section: science
+Priority: extra
+Description: INDI Driver for RaspberryPi GPIO
+ INDI Driver for RaspberryPi GPIO on/off and PWM
+ This driver is compatible with any INDI client but only works on Raspberry Pi devices
+
+Package: indi-asi-power-dbg
+Source: indi-asi-power
+Version: 0.95
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 136
+Depends: indi-asi-power (= 0.95)
+Filename: ./indi-asi-power-dbg_0.95_armhf.deb
+Size: 115700
+MD5sum: 19cbe35877d1eb2336f1d0b360e03e64
+SHA1: dcc270f05a036206a4c69675fd4bcc4cf2c30eb0
+SHA256: bcee7f4c435184efe5b2f24d406ca9c5c2094388779b08483bdb2867222ca394
+Section: debug
+Priority: extra
+Description: INDI Driver for RaspberryPi GPIO
+ INDI Driver for RaspberryPi GPIO on/off and PWM
+ This driver is compatible with any INDI client but only works on Raspberry Pi devices
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: a2c260d4855abd55ce3b4a93593f1b401ac45043
+
+Package: indi-astrolink4
+Version: 0.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 183
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2), zlib1g
+Filename: ./indi-astrolink4_0.1_armhf.deb
+Size: 55852
+MD5sum: 6da25f10ddefe560092ca21b9b60ce4e
+SHA1: bad21ea13c579e940b72292f97e422f78d576d98
+SHA256: 3f6099c12ab0a2f9b0b1c5047edab03316360a885b12a3d06ecfa30391feb289
+Section: science
+Priority: extra
+Description: INDI AstroLink Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This INDI driver interacts with AstroLink 4 mini device. It contains two focuser controllers, regulated outputs for heaters, peltiers or fans, switchable power outputs, different sensors inputs, hand controller connector and many other options.
+
+Package: indi-astrolink4-dbg
+Source: indi-astrolink4
+Version: 0.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 879
+Depends: indi-astrolink4 (= 0.1)
+Filename: ./indi-astrolink4-dbg_0.1_armhf.deb
+Size: 832456
+MD5sum: 15655a375c7e27d5cc77fefa5b19b983
+SHA1: 23a701e823117dc26f5d5f3809777d9e389b46ba
+SHA256: 1c1f86d8c92e703114ad28e1c000ecc17512f0d5cf5ae1f0adca7b322e27e573
+Section: debug
+Priority: extra
+Description: INDI AstroLink Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: ca7f4b442f5a0793fe56dda75a9fa155e1a09835
+
+Package: indi-astromechfoc
+Version: 0.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 172
+Depends: libc6 (>= 2.7), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-astromechfoc_0.2_armhf.deb
+Size: 44424
+MD5sum: 1be99d408c956495c63a4963c472ac7d
+SHA1: 849c5a36baf7a1ca549580ecb76909467478e782
+SHA256: 68f50535b52068dd81a1722b8d92e24c2c2ac173348b2bca62c1a8175d453429
+Section: science
+Priority: extra
+Description: INDI Astromechanics Canon Lens Controller Driver
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.  The driver interacts with a Bee Focuser using TCP/IP.
+
+Package: indi-astromechfoc-dbg
+Source: indi-astromechfoc
+Version: 0.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 720
+Depends: indi-astromechfoc (= 0.2)
+Filename: ./indi-astromechfoc-dbg_0.2_armhf.deb
+Size: 671408
+MD5sum: 6e7227d297d87d527837697a661a24ab
+SHA1: af92c07c30d3764ac17dab1aeca839f18a6e6926
+SHA256: ddfaf832712528036c451080d09b897b36b3fb16fe7d7b22cf5a2db22a7ba96a
+Section: debug
+Priority: extra
+Description: INDI Astromechanics Canon Lens Controller Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 5f2daa60a4a883a6a214f9361352bfee02174403
+
+Package: indi-atik
+Version: 3.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 100
+Depends: libc6 (>= 2.4), libcfitsio9 (>= 3.480~), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2), libatik
+Filename: ./indi-atik_3.0_armhf.deb
+Size: 27504
+MD5sum: a9d7e654344c07cdc520240d2dc11499
+SHA1: 0c24b845953380276c70eb5684e8c21e268e46dc
+SHA256: b33a5cab5b53023ea01711c51702c0ebfedfabbbc85ec960ec22f263e857e331
+Section: science
+Priority: extra
+Description: INDI Driver for Atik cameras and filter wheels.
+ Driver for Atik cameras and filter wheels.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-atik-dbg
+Source: indi-atik
+Version: 3.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 299
+Depends: indi-atik (= 3.0)
+Filename: ./indi-atik-dbg_3.0_armhf.deb
+Size: 266124
+MD5sum: b8da9e519eb8c4c867bf970af3e69e92
+SHA1: 42f25d107cfd12a33090d31013176029cbb0785b
+SHA256: f0f2d894164d2e358063f19276d4f37120481d7d15d691fe36061494153e3a12
+Section: debug
+Priority: extra
+Description: INDI Driver for Atik cameras and filter wheels.
+ Driver for Atik cameras and filter wheels.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 7737ff8aee8f7074e0d1f4661e3c0f2eae3f96d2 ff34f9f0bb8d201b696dd32db15ec9b11e96a30a
+
+Package: indi-avalon
+Version: 1.12
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 122
+Depends: libc6 (>= 2.7), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2), zlib1g
+Filename: ./indi-avalon_1.12_armhf.deb
+Size: 34860
+MD5sum: 56103661265bf7e87dd43a675e75c0cb
+SHA1: 26292d382004e3d653e2b4f44b90f998cb81bdb2
+SHA256: 10247473ad3d478d19163857d3c1c185468a8f9af1baea6412c68c754b6ac94e
+Section: science
+Priority: extra
+Description: INDI Avalon Stargo Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-avalon-dbg
+Source: indi-avalon
+Version: 1.12
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 275
+Depends: indi-avalon (= 1.12)
+Filename: ./indi-avalon-dbg_1.12_armhf.deb
+Size: 239324
+MD5sum: b82fc7a30ca9e2a211bc3188f6e9e57f
+SHA1: 5f7d2aa7b430d4b939230697cb4dc066d2b284ae
+SHA256: 00193eff4f08341e7b77959faf8c6bd2da4cf29454b6d4cff7802071693a595c
+Section: debug
+Priority: extra
+Description: INDI Avalon Stargo Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: b01d03bbde3cd134b3ffdcb9b3d7e6c3ccc6ac67
+
+Package: indi-beefocus
+Version: 0.1
+Architecture: armhf
+Maintainer: Andrew Brownbill <andrew.brownbill@gmail.com>
+Installed-Size: 258
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-beefocus_0.1_armhf.deb
+Size: 62992
+MD5sum: 0472440181801ed55513dfef117f0837
+SHA1: 9de9e0069f287890209bb9ba83e879032208e274
+SHA256: 544864b76f1541d4e2f994de010808171c003ff8d67266f8518e6814c65aeb2f
+Section: science
+Priority: extra
+Description: INDI Beefocus Driver
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.  The driver interacts with a Bee Focuser using TCP/IP.
+
+Package: indi-beefocus-dbg
+Source: indi-beefocus
+Version: 0.1
+Architecture: armhf
+Maintainer: Andrew Brownbill <andrew.brownbill@gmail.com>
+Installed-Size: 1296
+Depends: indi-beefocus (= 0.1)
+Filename: ./indi-beefocus-dbg_0.1_armhf.deb
+Size: 1227376
+MD5sum: f318bae5eb12ae8ef2e67c66e8d35314
+SHA1: 23d90d75f9fd4d0a263e934508f6ad698f954158
+SHA256: e51223dd39c5707037e48c8d7fe76ca1c851b406d7484b9ce01dfd7c624503ab
+Section: debug
+Priority: extra
+Description: INDI Beefocus Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 773f4be861174c9b50474bceebb896b912148b83
+
+Package: indi-bin
+Source: libindi
+Version: 2.0.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 9885
+Depends: libc6 (>= 2.29), libcfitsio9 (>= 3.480~), libcurl3-gnutls (>= 7.16.2), libev4 (>= 1:4.04), libgcc-s1 (>= 3.5), libindi1, libnova-0.16-0 (>= 0.16), librtlsdr0 (>= 0.6.0), libstdc++6 (>= 7), libusb-1.0-0 (>= 2:1.0.9), zlib1g (>= 1:1.1.4), libindi-data (>= 2.0.0)
+Filename: ./indi-bin_2.0.0_armhf.deb
+Size: 1473132
+MD5sum: cdfce977f634f2f031a0b25eb14f3e14
+SHA1: 74ff974d0cee59cf106bb669e851b40f84b785ea
+SHA256: 0054701265af201236b52b8e08de5db2979f33c1c548f7d0ab084cb92fb0a5e4
+Section: misc
+Priority: optional
+Homepage: http://www.indilib.org/
+Description: INDI server, drivers and tools
+ INDI (Instrument-Neutral Device Interface) is a distributed XML-based
+ control protocol designed to operate astronomical instrumentation.
+ INDI is small, flexible, easy to parse, scalable, and stateless.
+ It supports common DCS functions such as remote control, data acquisition,
+ monitoring, and a lot more.
+ .
+ This package contains the INDI server, the drivers for the supported
+ astronomical instrumentation, and other INDI tools.
+
+Package: indi-bresserexos2
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 113
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libnova-0.16-0 (>= 0.16), libstdc++6 (>= 6), zlib1g
+Filename: ./indi-bresserexos2_1.0_armhf.deb
+Size: 28164
+MD5sum: 512f5a8bf5c00e02c27aa6a8267422b7
+SHA1: 223f693727220c9d1c51689b193ec8817cacb719
+SHA256: 234e290ece1d1bb7f1a0e7ec82eec8679b1e079eb3d43e14c034c90c526ece3f
+Section: science
+Priority: extra
+Description: INDI Exos II GoTo Telescope Mount Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This is a basic driver for the Bresser Exos II GoTo telescope mount controller, allowing the connection to INDI clients.
+
+Package: indi-bresserexos2-dbg
+Source: indi-bresserexos2
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 378
+Depends: indi-bresserexos2 (= 1.0)
+Filename: ./indi-bresserexos2-dbg_1.0_armhf.deb
+Size: 336708
+MD5sum: 8455c0d5d8a34266d096a97f692f0aca
+SHA1: 26410cb6368ba099f579a54e01cd208405c4a49c
+SHA256: 515b850f218422c19a60fbbb3f91e28249b2bfd0a95112ef1c3e97885601c008
+Section: debug
+Priority: extra
+Description: INDI Exos II GoTo Telescope Mount Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 8934e992d25532a007f512a5f4438a08ea734e25
+
+Package: indi-celestronaux
+Version: 1.2
+Architecture: armhf
+Maintainer: Pawel T. Jochym <jochym@wolf.ifj.edu.pl>
+Installed-Size: 128
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libnova-0.16-0 (>= 0.16), libstdc++6 (>= 5.2)
+Filename: ./indi-celestronaux_1.2_armhf.deb
+Size: 38492
+MD5sum: 8a914a8f8cc082f533517e2a7623dbf7
+SHA1: 68ec350d3b0327481041d27ec03fb37e3771a77b
+SHA256: 23bd8c5daa81baad937c426446296b543e43d72fb50828c520a096a30a68dd1e
+Section: science
+Priority: extra
+Description: INDI driver for Celestron mounts in AUX mode.
+ .
+ This is a driver for Celestron telescope mounts working in the AUX mode without hand controller.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+Original-Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+
+Package: indi-celestronaux-dbgsym
+Source: indi-celestronaux
+Version: 1.2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Pawel T. Jochym <jochym@wolf.ifj.edu.pl>
+Installed-Size: 366
+Depends: indi-celestronaux (= 1.2)
+Filename: ./indi-celestronaux-dbgsym_1.2_armhf.deb
+Size: 337256
+MD5sum: 8c5989131424407b1988e0742c733d4a
+SHA1: 1ff39e84fc761616104adbf1b60f5ec3a3051a24
+SHA256: 2052a1838c457e472f8700dab301534c852b392aecaa801e63290a30ecd4474f
+Section: debug
+Priority: optional
+Description: debug symbols for indi-celestronaux
+Build-Ids: 2d40cd35729b5300dd86ff0102a6fea029c5880d
+Original-Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+
+Package: indi-dbg
+Source: libindi
+Version: 2.0.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 49554
+Depends: libindi1 (= 2.0.0)
+Suggests: indi-bin (= 2.0.0)
+Filename: ./indi-dbg_2.0.0_armhf.deb
+Size: 46080780
+MD5sum: 7e12f9c5aa0865c26a0656e4acee3b6e
+SHA1: e105475a85c31d7dab41df54823ca3da359e9dc9
+SHA256: 450cfd16fc842203f3d9dde80818ec8e4067f159a8610a43fba3568fc93e37f3
+Section: debug
+Priority: extra
+Homepage: http://www.indilib.org/
+Description: Instrument-Neutral Device Interface library -- debug symbols
+ INDI (Instrument-Neutral Device Interface) is a distributed XML-based
+ control protocol designed to operate astronomical instrumentation.
+ INDI is small, flexible, easy to parse, scalable, and stateless.
+ It supports common DCS functions such as remote control, data acquisition,
+ monitoring, and a lot more.
+ .
+ This package contains the debug symbols for the INDI library and all the
+ utilities, useful to investigate problems in INDI.
+Build-Ids: 0f55700dfab401fc9248efcb9f12515d15870342 44af72e99a8f1cc15752f7939f67e47bb5416c30 91d0388e00dee42fbe78e0cc5ec124a627f89adf a81dabb13815edbe0eb98f00d580c24d2d4e3b69 d1e759e1694165972a31ef2944688535820a40f9 fbe3ca726235f5fe533687421727bfc9a066a80b 001932336ec7cc3781623cdae89edf3fb34a15d6 0265d8271026cda954863300a3c91bec9733e9bb 03cdacec694f8df59f32909ea69d8bd78c5a02a0 055324faed4b8851caaac60814751d93bd6087c1 0a03c1b30f4e0b903a36bc56e2ff991470fdcee5 0a44a93522720d03ba4be943edd361a7bf28ef57 0fb4bd62c5d112d9b5d84a38181c4af38b4cceb4 15969077e4b71bb657a7ae2d9f00b16cfefb1bbe 15e3b894b740526c2e130aba5ebd370278ebd3c1 15ed3e069438befa6357c405606dda914b3ed433 17d264ae99b813500c96c7e4c5e7ecaa5e44125b 190939719bcf2358d14ee73bac7324bb5a2481ca 1f7abb684a6f3af7eafb5b7462fe8564681a9402 1fb26496a969ff6e50b6661ce7daeee945d46459 24372c8fac77edbdb7049e99c8d2f3ff1c99f576 25639b23f1df96d693de49f87e1926144351825b 27a522dd1c675a8c7dbe54922d10b4454ca97bf0 2caee04cfbe69a119cc650a284772b37c0cb7f0c 2d9270aa9de6893d1877d01a6bcb7605ce03a5d2 323ad0db5520ea3db9e061cd5d9c60411d8f4288 3433e9a75e3118b1e42d0367ba198ef6caaba45e 3551de8da00bf0a48ade13ef9f70e1bfd2435cc0 3a54cadeace11d3e8f0cb861e35af59c62b2f40f 3a630c83eb9b3e5e12893d7d1e560e3097d9ce44 3c20b8fa8bfff2736c0ecd0fb6db8a3eb163753b 3da769bc20451f5d063562c1c34d08cfd1ee43d0 3ed6797f3162f9d82cdbf66ac71489e86e31f363 3fa9b062849e8926e7f8e6d58030e0ec0ed813f0 407ab4ebd8deb45b5e9fcf309b99b0726af38b78 4092a429b74b9d3e068b7395a420284f71612a83 4342f3c1f838d58c26b37e62ae8a388c69398d2a 43aefc2e41f1131959b9d259d4d6b477c61de06f 4468d6694e0a371601ac67827616c6f773ba056d 4509af0654614f1d43a5b7127c0ef247c038e2e3 4da9b1f71b45bd7f12adb17dde76a5c8765eb426 525f71a2301c7983bd4057df730780787e873527 54ce48604ef2f575d22e4b8c193c3718b76fba06 560c8f90dc9427a9cdaea6e2a4a4831569c17386 578755b2b66083c057d9f664db31cd4309f1b8a5 589b427c8e5664e590c3734f2494ab4334b67ec1 5aedce951ba54cdcff804be9d622d4d0731d5586 5c9ad8ef728ea62b999fe5a372ac15870dcad971 5d5d05645597bbdefd9a626303ceac2acab9dc62 5e123e2ae65cdb419d95d3f95b22bf9fc6d7575c 605ef050177cdee4475e7337e0cf6fe2256e3f4f 614877e4c61c5b83d2083abf630bfb7b52b53811 6153b3f11810113fc7f323e0a88a6d4d22c662e3 634edf05d2a4199b72e8e74f9b98e19bfce172f4 657bc7b2028c8a75385caa6e14ac560d67a1f880 67c9511acc019029b3d90ac11b2b4a2f8b16d2a5 67e3179ce7d1490ee16b533c429374af09b2e813 681699e83e3a4e0114026a8b970c523498da1eb0 69578be5a686b21c9c516f68cdd2225045076a27 6c04c6587c8482f5f03ee58523c4859c9af08e46 6c0628df8befc72fb8f2e6fbf6abb63295b52b5e 6d14cdab89651c34dfcda754fbadfc64fcb80c18 6d50d2e74007dcadb7083104a8a87e22a3d5a7d9 6f4a30e75e084f0d546ae0be1bdb48a0cccf88e9 71b11621295007d3ec07d295a78168365d2fe2cf 74721abc326f3f889b15e599da78f95ad5315425 79e9755af9cc5fadf9957a6a5ad897cb8482971d 7bfdd773526a7d0cd0836c44827141886b37b951 7c32fda209bf16948582c67e20fdfcba41e728b4 7cb5776fea16ee105d9940e113599124f2647a9f 7cf879e922615af0c3ec91e0dac6c65857427d6f 7f59f740576e53d451d65331893f141ade0847b1 80ac96c4c033aafd49d77d668a6a20f2c236d262 810eb966b51cb2716fd9c0b8ff7167cf4a5f138c 8467d5be66592f2e352d387e1e02fbc58c99d257 84a62c2dbf74450b84a33a57f0754b965404de66 85b786fe324df0f1baa79751ee1c3c94178f4f0f 88d5f4351130b942c0daf443e28db003bde7858d 8afca0040649bd3d10e45a481b9b005e3c3c9056 8ec2e3c8f5917dcc17dd450015c40284a3bf3ed4 901e9be9d987f109b496dae205e3aa5e15a2c645 90ede06bad082e45bcc3b631e1ab690042669576 917f8ee9c26c4eb3f648a1c47abb4be414410794 978d270524d2b6d303b8c9ec8e336036ccee7f93 9db352a22007bbb0c20bb6d05d7169293495c3fe 9e5e38620560f6215c1f85ec57666f4667b86eb9 a2a9d1d9482f010eb45f46aa39c4c115f7a357db a40f056fdca1a2b06cd0da1ce78ed9b1bb96b861 a476a318fec8559c31b2fc0cd40fd3b676db23f7 a48a953766ca67f6b39a016fa732994bd1b0d10f a7b2594b91e232b31a67c3cc3073b71245bc34ab a7d2e27890fd3b02e4064a46779573890405acd5 a98ee2167c8e52df6a35897e48e17bc23249a572 ab66312cc62f95f6d70672aa644447836a1a4bf7 acb3bd8d3dc1ace976a1754a6abe000a7b798466 b2d244af9ddaeef02666b1e8dd8605a21e853d1d b3960247871c78b420e47669da26451e9b867592 b3a380af4d45c94a1ce529f6117b50eee43c2851 b40f4755fa0a06574e884a71b420602d1713cafd b5cbf2602305a08018f3b485376d116318500797 b6e68bc634803b540f4dc346e285a28085d70ecb b99c6b035e22da76e703726e31520619c68d63ea b9e568b1a1f4a22387725da11d04a6963dafd209 bb1f1a70deca047183f9bef60d9a7142a91b387e bb2880b7f0363520f9c5db05e074598c74f877e3 bbdc35cd677775adaf7870eaee5056e0074f0157 bf841c4b5d1241234f4a0f4d1a9067f0ba89f23f bfcd8283a3c298d3424673f09ece73a27c0ba910 bff82cc692d41bd10aee70fc65861e825cdf259e c57201a76805150d544c939eced4784560540c6a c5efee4d2f1b2549070ed4da0ced76b8b05b5e7a c866b91fb21e1fa01d36534b070269960f92fc56 c9bb4dce5c2c6f252a9bc6f3a93920c1ea986460 cbdfd3046d656e51d839c0e03e4edc0009304944 d4327dea46085ba7d775605d434abb2f1c822119 d4fa005e40e67f1a602a684ba9309b6960557e6b d564141f9e6a1a05c5b6cdd4e766a89215b6af92 d82113d16644b091fbbad93e7c8c71f478c02860 d88fc790eb90415dff493d58cd10bb56770ad0c6 d9a9a8b2d07a6d585918048b646139bd516b8dee da7e388ae8844d0797bacbe18d9bb62f83ea02cc dca203536d930efb4fc682dd7884f3325add9092 deb6968035a14a824811dea5d397be48d894b9b7 df78900ac2defa82d3e1ed9052986c4e9688e472 e03eb1c6b7e1ebfa76731cbbbc8d09f7260c1995 e27d40641f5dccbacd55e2022a7eaf657882d78f e39550ce7ee86f43e598576716288f27a6e625f0 e927f01fb7ef36572560bbb762ba43454f192cc8 eb0c48b2956fb2b77f8397e5fc2fe22de2a02299 ec11b9558e7550c76396caf2b190fa25593ac4d7 ec7156f78452fa61bd7305600f079ae3dee92171 ecd308a5f1353187b614fb0ad9dad9cd08f51a7a ed0602914f859c81ff5d6f564dda22b09d8bdf77 f2d77dd64b2ccf2c133f583b65918998e6035d4a f7ae88d6c0fb8cfd54a2bc75d85e2f9a09d1e479 f7dccadb67f3e8ff54e1fa586cd659d25311d9f5 fab618be29744425f02dd2158612b3bb8dadad21 ff6cdfeaf27cb8b01aca68e1108c059b24c78eab ff84d5bfca7c98efc9d2e0b686bc03875ecdc6cc
+
+Package: indi-dreamfocuser
+Version: 2.1
+Architecture: armhf
+Maintainer: Piotr Dlugosz <pidlug@gmail.com>
+Installed-Size: 43
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-dreamfocuser_2.1_armhf.deb
+Size: 11400
+MD5sum: 36773c14f08d70308e308725f759de12
+SHA1: 60ec027f14c6e2863d0d2d42dcf501dd886ce484
+SHA256: 9be442399be9e9be7850fd02474db1db06d9c55d33cd73f740a6069713f07d50
+Section: science
+Priority: extra
+Description: INDI DreamFocuser Driver
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem. The driver controls DreamFocuser focuser device.
+
+Package: indi-dreamfocuser-dbg
+Source: indi-dreamfocuser
+Version: 2.1
+Architecture: armhf
+Maintainer: Piotr Dlugosz <pidlug@gmail.com>
+Installed-Size: 83
+Depends: indi-dreamfocuser (= 2.1)
+Filename: ./indi-dreamfocuser-dbg_2.1_armhf.deb
+Size: 62656
+MD5sum: 393cc18edb7643a5e59021fcde91e81c
+SHA1: a675d37a5e044a7241044cc02a8f287fd69a206f
+SHA256: 4615196c300980afaf702270409a2340987b4cc8d1b5611fbb0bf4069e43fc05
+Section: debug
+Priority: extra
+Description: INDI DreamFocuser Driver
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: a767f81b50822144f7fce5136df80d3dc393ea34
+
+Package: indi-dsi
+Version: 0.4
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 207
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2), libusb-1.0-0 (>= 2:1.0.9), fxload
+Filename: ./indi-dsi_0.4_armhf.deb
+Size: 51132
+MD5sum: ef1aaba0cdc78c4402daa12b07ebb25e
+SHA1: 5b4b38ce5fb3b3125237c557810c85dd813ff466
+SHA256: 39a922d3d8e4a6438f75f20da9c7ba05931fc1b0f626e2f916e5b3b4900bb6d6
+Section: science
+Priority: extra
+Description: INDI Meade DSI Pro I/II/III Driver
+ Driver for Meade DSI Pro I/II/III camera.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-dsi-dbg
+Source: indi-dsi
+Version: 0.4
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 1161
+Depends: indi-dsi (= 0.4)
+Filename: ./indi-dsi-dbg_0.4_armhf.deb
+Size: 1091252
+MD5sum: c72eec33d63b9bd148c09685fc70a490
+SHA1: c8d47f144b28c933a2cb6fdf7950d19213395337
+SHA256: d336ac2d2d0b0c7d21a160023e38943a5b6fb3602fd50e04c0b0204a263dd981
+Section: debug
+Priority: extra
+Description: INDI Meade DSI Pro I/II/III Driver
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 2275781aaac3af9725bbe8c3ba2ba49b52f9cb48
+
+Package: indi-duino
+Version: 1.17
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 271
+Depends: libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.2), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-duino_1.17_armhf.deb
+Size: 68768
+MD5sum: 3cbdd671c317ea0bc17048bc45769dd6
+SHA1: 11f795a3248d37a675a8c75c62120ea26383040d
+SHA256: fd53835b7efd83a79e6f3e4cebd123bb7c1bf85aedf27568e752cc0f6ec81f3b
+Section: science
+Priority: extra
+Description: INDI Arduino driver.
+ .
+ This driver enables utilizing Arduino boards as general propouse I/O. This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-duino-dbg
+Source: indi-duino
+Version: 1.17
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 770
+Depends: indi-duino (= 1.17)
+Filename: ./indi-duino-dbg_1.17_armhf.deb
+Size: 710384
+MD5sum: 510b010e201a758cb26954f570f13992
+SHA1: 0864487e0bec5c4839027cd690b032f9633a409d
+SHA256: c35c09da9734d1656fcc28aff2f6d22329b881c76c99cb0e0ef5880ca3d3e233
+Section: debug
+Priority: extra
+Description: INDI Arduino Driver.
+ .
+ This driver enables utilizing Arduino boards as general propouse I/O.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 407c170ecaf9f4745f6ea9c78a923d044a54f028 791d3167ceb02f25e00325ae46ec0e594ab9af80 7ec506d6f1e9ca09ea6a96f6370766360d88dc3d
+
+Package: indi-eqmod
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 1360
+Depends: libahp-gt, libc6 (>= 2.17), libgcc-s1 (>= 3.5), libindi1, libnova-0.16-0 (>= 0.16), libstdc++6 (>= 5.2), zlib1g
+Filename: ./indi-eqmod_1.0_armhf.deb
+Size: 160488
+MD5sum: d58917510a554468d46faf59c6921fb0
+SHA1: 4c8811c83bc09c48a7c22730a89b91168542951a
+SHA256: 67c345f55d12e9e855b542bf793a8322acd7914cc5d463be380bcce4d450ed49
+Section: science
+Priority: extra
+Description: INDI EQMod Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This INDI driver interacts with a mount controller using the Skywatcher Protocol through a serial link.
+ It can directly drive Skywatcher and similar mounts through a serial port after a conversion of signal levels (see EQDIRECT interface), or any other mount hardware which uses this protocol.
+
+Package: indi-eqmod-dbg
+Source: indi-eqmod
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 4155
+Depends: indi-eqmod (= 1.0)
+Filename: ./indi-eqmod-dbg_1.0_armhf.deb
+Size: 3828672
+MD5sum: fc6037d05f3ba0e99b366a6b70cf77ab
+SHA1: 64c9b4567d7f6da719c3794a69d63a5e1721d266
+SHA256: d64969210c55767d20501e077e47e40462f9d572f0febffe8b39a61d25fc9c04
+Section: debug
+Priority: extra
+Description: INDI EQMod Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 305c5b8eb0ff15c00c3f531da17ad2e95a1baf8f 5712dee35279324818e1ae9c8b16393d6744cf76 a6161054b35079aca52a42c5beb7d3aaf670631c b950864ac64127bbccba60985c86ff673a2ef163 be5d5849928419655cb20d4c326fa1de4cc96937
+
+Package: indi-ffmv
+Version: 0.3
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 48
+Depends: libc6 (>= 2.4), libdc1394-25 (>= 2.2.6), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-ffmv_0.3_armhf.deb
+Size: 12264
+MD5sum: 437b36b3561d60cd06f25122905a828e
+SHA1: cd48a5113096d8b1eff868e31988910ce84e48ff
+SHA256: 7d90ebc2c906d7fe861a119d7e13ad06203d9a64ff646d31c72f2ae7d981c23a
+Section: science
+Priority: extra
+Description: INDI Driver for Point Grey Firefly MV cameras.
+ Driver for Point Grey Firefly MV cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-ffmv-dbg
+Source: indi-ffmv
+Version: 0.3
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 105
+Depends: indi-ffmv (= 0.3)
+Filename: ./indi-ffmv-dbg_0.3_armhf.deb
+Size: 83420
+MD5sum: 827c5bfc0bbe0e227d0f5ddf7662b264
+SHA1: 1758053479502b25def76b4181616de2b055e37d
+SHA256: 2926853990fa6fef949b32179a26bd9a2e31dc494bc7442dc25fa1d49935160b
+Section: debug
+Priority: extra
+Description: INDI Driver for Point Grey Firefly MV cameras.
+ Driver for Point Grey Firefly MV cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 4542d8f5b99101188437244b514d160b0d6fa24a
+
+Package: indi-fishcamp
+Version: 1.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 48
+Depends: libc6 (>= 2.4), libfishcamp, libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-fishcamp_1.1_armhf.deb
+Size: 13476
+MD5sum: 391231ba78d8755eb48e0118165b8c7a
+SHA1: 5cdf05d68fc1cfab56645d31815a5a4ad29456b5
+SHA256: 2c49b7f69b24fd9e9e3bc88f1dec577d037de33c3dbb4ca0e4dceb398a14f6f6
+Section: science
+Priority: extra
+Description: INDI Fishcamp CCD Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-fishcamp-dbg
+Source: indi-fishcamp
+Version: 1.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 118
+Depends: indi-fishcamp (= 1.1)
+Filename: ./indi-fishcamp-dbg_1.1_armhf.deb
+Size: 96108
+MD5sum: 2dc1b92a0827f5bb77bbe888409655e5
+SHA1: 88e2f03b2e45994d93f6b9446fd5a8902fbab6f8
+SHA256: 055c4f1808e56e61e2ee0c62234226d2ab46386b62802db340d41bec0ad65342
+Section: debug
+Priority: extra
+Description: INDI Fishcamp CCD Driver
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 4f4699881bd9c5cf2b76d059fcdc693b0730f65a
+
+Package: indi-fli
+Version: 1.5
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 103
+Depends: libc6 (>= 2.4), libfli2, libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-fli_1.5_armhf.deb
+Size: 26140
+MD5sum: 7090262f718a89bbfdfacef8bb2219b7
+SHA1: 482c51ba7fcfd985b59b8c6e3ea1c9bdec556e4f
+SHA256: 98d915b49aeb3498863fa0a846f157270a801ebf861f17b051a1585ed09afd77
+Section: science
+Priority: extra
+Description: INDI FLI CCD & Focuser Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-fli-dbg
+Source: indi-fli
+Version: 1.5
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 259
+Depends: indi-fli (= 1.5)
+Filename: ./indi-fli-dbg_1.5_armhf.deb
+Size: 217536
+MD5sum: 12e7270b9388fdd85842fb62acaf4be1
+SHA1: e0966c14281b8d5f31fd5b4d341274bb9ec92633
+SHA256: 71a4b79d5f7eeb1afc51d9786b14192981278c25148f9f99fe5eca4d8b708ca6
+Section: debug
+Priority: extra
+Description: INDI FLI CCD & Focuser Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 1b21232062010aa82e03081b65bd42fcaff9fd41 865110afd1205517622d73e5de867b599f321653 b9647ea2642a4f4a106239ade8bdcdaa8751bfe5
+
+Package: indi-gige
+Version: 0.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 59
+Depends: libaravis-0.8-0, libc6 (>= 2.4), libgcc-s1 (>= 3.5), libglib2.0-0 (>= 2.12.0), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-gige_0.1_armhf.deb
+Size: 16556
+MD5sum: 174d654468bc957c144b2d7cd8167909
+SHA1: 7f41a9ca79b7731b490ece3ebeea5223704fdccd
+SHA256: eca523ead5b539129c34414e657cac80ff0a478819f76ed8655f414095609dde
+Section: science
+Priority: extra
+Description: This package provides basic support for most GigE machine vision cameras through Project Aravis.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-gige-dbg
+Source: indi-gige
+Version: 0.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 131
+Depends: indi-gige (= 0.1)
+Filename: ./indi-gige-dbg_0.1_armhf.deb
+Size: 104696
+MD5sum: d5ccea8f400ab47244ed3fc7e9750ed2
+SHA1: 95cb338f8ee367fe049f765557e3f53bb676f9a4
+SHA256: 5b4e265069000aadd4129ddcd7766aba5f0047c83ac6a63bf8a0cc5e5bc16e15
+Section: science
+Priority: extra
+Description: This package provides basic support for most GigE machine vision cameras through Project Aravis.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 1312d66e9c3d6861d4519ec2a7b2af5c76224ac5
+
+Package: indi-gphoto
+Version: 3.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 166
+Depends: libc6 (>= 2.8), libcfitsio9 (>= 3.480~), libgcc-s1 (>= 3.5), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libindi1, libjpeg62-turbo (>= 1.3.1), libraw20 (>= 0.19.0), libstdc++6 (>= 6)
+Filename: ./indi-gphoto_3.2_armhf.deb
+Size: 50096
+MD5sum: 80572019450091db9e47a8d5e9974a6f
+SHA1: 3fa0fdc82a3577d2226876e2297128403798d101
+SHA256: b84502c3038106fcd7e8599efabe79581395ea6adec5b88e453bf205fa080846
+Section: science
+Priority: extra
+Description: INDI GPhoto (DSLR) Camera Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.  The driver can operate any camera supported by GPhoto2.
+
+Package: indi-gphoto-dbg
+Source: indi-gphoto
+Version: 3.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 497
+Depends: indi-gphoto (= 3.2)
+Filename: ./indi-gphoto-dbg_3.2_armhf.deb
+Size: 461828
+MD5sum: 7551e26d333e01f7f2a3dcfc463e9fa4
+SHA1: 3498077d61153cfefbf8e93b573bac6e4694061e
+SHA256: 823a16cc8b186dbbfcbe9761759c436800c12b3849ab085788ba3f9e5f6cd14c
+Section: debug
+Priority: extra
+Description: INDI GPhoto (DSLR) Camera Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: b79db15d15f8826fa198061e12dc7fe39b2a5d05
+
+Package: indi-gpsd
+Version: 0.5
+Architecture: armhf
+Maintainer: Pawel T. Jochym <jochym@wolf.ifj.edu.pl>
+Installed-Size: 34
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.5), libgps28 (>= 3.20), libindi1, libnova-0.16-0 (>= 0.16), libstdc++6 (>= 5.2)
+Filename: ./indi-gpsd_0.5_armhf.deb
+Size: 9684
+MD5sum: aa3e8cf552f4b635e495b276c9709546
+SHA1: eb6e0d4279cd0b24df2c6068dad5f0f1b1d2e5a9
+SHA256: 75ef3270424743bc929f25e1262ff1fb2aa4bf26c918ead3f89b4448c9a27b39
+Section: science
+Priority: extra
+Description: INDI driver for gpsd gps daemon.
+ .
+ This is an INDI driver for GPSd daemon.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+Original-Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+
+Package: indi-gpsd-dbgsym
+Source: indi-gpsd
+Version: 0.5
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Pawel T. Jochym <jochym@wolf.ifj.edu.pl>
+Installed-Size: 99
+Depends: indi-gpsd (= 0.5)
+Filename: ./indi-gpsd-dbgsym_0.5_armhf.deb
+Size: 84236
+MD5sum: d6c7f936c4f0d0874dab8d1a80678dcb
+SHA1: ebd4856b3484fc2a5c340c2cbcd28a639db04b9f
+SHA256: 8c9ad2d898afee9431006b9c97b9e6bdd4b3bd38184c8a2bd78ad7610aabecf2
+Section: debug
+Priority: optional
+Description: debug symbols for indi-gpsd
+Build-Ids: 172dc1b51c5ad5cde1382576476548db0a727597
+Original-Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+
+Package: indi-gpsnmea
+Version: 0.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 42
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-gpsnmea_0.2_armhf.deb
+Size: 11808
+MD5sum: 823504369fc54c9a229840dc241fe4d4
+SHA1: 19126658e57214445fbcd2120fbcb35fdb782a7b
+SHA256: bb1c6da5171a4c7937f128ceeecbe9483175f566256a069665ee7b438141c5ae
+Section: science
+Priority: extra
+Description: INDI driver for GPS NMEA streams.
+ .
+ This is an INDI driver for GPS NMEA streams.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-gpsnmea-dbgsym
+Source: indi-gpsnmea
+Version: 0.2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 97
+Depends: indi-gpsnmea (= 0.2)
+Filename: ./indi-gpsnmea-dbgsym_0.2_armhf.deb
+Size: 81176
+MD5sum: ef8c02d856e6b260eec04add9b98fcd7
+SHA1: 4b3a904207e7641b8eca6459ac91acc502cd5db9
+SHA256: efcdbd81e1db3a20efab121f444389c8a7e93c5de4ac683d79085d75c0d1d6b5
+Section: debug
+Priority: optional
+Description: debug symbols for indi-gpsnmea
+Build-Ids: 48bbf8a7a9dac42d580616393cd9c96fefe0717b
+
+Package: indi-inovaplx
+Version: 1.4
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 39
+Depends: libc6 (>= 2.4), libcfitsio9 (>= 3.480~), libgcc-s1 (>= 3.5), libindi1, libinovasdk, libstdc++6 (>= 5.2)
+Filename: ./indi-inovaplx_1.4_armhf.deb
+Size: 10608
+MD5sum: f982b5a57211c90d05c01bc9813c5174
+SHA1: 29cac86d379fbb15cca83086b786939da5577485
+SHA256: 147b62061333149a47df74634ccc9ffd493e7bf03bf2d236227174235fccb432
+Section: science
+Priority: extra
+Description: INDI iNova PLX Camera driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-inovaplx-dbg
+Source: indi-inovaplx
+Version: 1.4
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 81
+Depends: indi-inovaplx (= 1.4)
+Filename: ./indi-inovaplx-dbg_1.4_armhf.deb
+Size: 60488
+MD5sum: 67fd21589e85a991315e9aab215c7325
+SHA1: e2b8ecbcdd3c24b8c56b3d1aa4c027ba39cd4f0d
+SHA256: bb54a07a9f81b25b8ed207d06517fdeb65a9de9797b69e27287b991fa020d963
+Section: debug
+Priority: extra
+Description: INDI iNova PLX Camera driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 68d653812c28e86d5c2f1d1152946658ab9c283a
+
+Package: indi-limesdr
+Version: 1.4
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 10
+Filename: ./indi-limesdr_1.4_armhf.deb
+Size: 1988
+MD5sum: aaa01fe0108d0d65af9b52feae6b1329
+SHA1: 56c04332e896731a6749bb582dae118da2d1be28
+SHA256: ef2f02ea37238a50190df283a37c481efae694ef5fced98fb6f40daebae17156
+Section: science
+Priority: extra
+Description: INDI LimeSDR (LMS7) Receiver driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-limesdr-dbg
+Source: indi-limesdr
+Version: 1.4
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 10
+Depends: indi-limesdr (= 1.4)
+Filename: ./indi-limesdr-dbg_1.4_armhf.deb
+Size: 2072
+MD5sum: b57b805f13d30a1f5ba4364010e5e1d9
+SHA1: c78d405ff02b511426eb8d7277960564758539f3
+SHA256: b1e133fd90dcce2d9df06b2cafc44314cb8e274e08d0fbb4ad54ccdf3986dbe1
+Section: debug
+Priority: extra
+Description: INDI LimeSDR (LMS7) Receiver driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+
+Package: indi-maxdomeii
+Version: 1.3
+Architecture: armhf
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 50
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-maxdomeii_1.3_armhf.deb
+Size: 14284
+MD5sum: 69645f3cd29e08f7129ad0ba52c0cfec
+SHA1: 42fa600e6242fff0bc04d56fa054f0ec49626ee2
+SHA256: b22f29e076e2aad17c8c819bd3586e89d1428d39f52c6e3b2c77bb1f48934324
+Section: science
+Priority: extra
+Description: INDI driver for MaxDome II automatic observatory dome control system.
+ .
+ MaxDome II is a fully automatic observatory dome control system. Link your dome to a personal computer for complete automation including telescope slaving and shutter control. MaxDome works with a wide variety of commercial and custom-built domes.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+Original-Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+
+Package: indi-maxdomeii-dbg
+Source: indi-maxdomeii
+Version: 1.3
+Architecture: armhf
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 109
+Depends: indi-maxdomeii (= 1.3)
+Filename: ./indi-maxdomeii-dbg_1.3_armhf.deb
+Size: 90052
+MD5sum: 5a48e8465054f627af971c060410a677
+SHA1: 7c6b7970ef7453504e3f373649af87bfc95b94a6
+SHA256: 91d2dd2397f0752d4b29b7e68d13e3474a58f96feb88cbbcee2b34946a596033
+Section: debug
+Priority: extra
+Description: INDI MaxDome II driver debug symbols.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: c4f2b4cfb3717cfcac97ecebc43410b8a6369b1b
+Original-Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+
+Package: indi-mgen
+Version: 0.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 86
+Depends: libc6 (>= 2.17), libftdi1-2 (>= 1.2), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2), libusb-1.0-0 (>= 2:1.0.8)
+Filename: ./indi-mgen_0.1_armhf.deb
+Size: 24112
+MD5sum: b7d882cdef45048561ec15b0cd183df2
+SHA1: 2445823d44d7245c88036842db74dcd60100c15a
+SHA256: 31dd2741dcd93ad69d66561272bd47536ab458a7f8f7f1887eda3db68d18184d
+Section: science
+Priority: extra
+Description: INDI driver for Lacerta MGen Autoguider.
+ .
+ This is an INDI driver for Lacerta MGen Autoguider.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-mgen-dbgsym
+Source: indi-mgen
+Version: 0.1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 259
+Depends: indi-mgen (= 0.1)
+Filename: ./indi-mgen-dbgsym_0.1_armhf.deb
+Size: 235768
+MD5sum: 924db80b7f9d04e3dd38e67bc3a4b944
+SHA1: c5b686021d13dd01f7616ade83c81f88a004b9e2
+SHA256: b15f0a89237c9d3cc5ddad594fe66d1b22b387e4137d953f2e699d61b9f35141
+Section: debug
+Priority: optional
+Description: debug symbols for indi-mgen
+Build-Ids: de251fde11253fa4f60da66b8f52a5c571140c98
+
+Package: indi-mi
+Version: 1.8
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 63
+Depends: libc6 (>= 2.4), libcfitsio9 (>= 3.480~), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2), libmicam
+Filename: ./indi-mi_1.8_armhf.deb
+Size: 19148
+MD5sum: a336a4b70f57d0cb55bf9b2519196174
+SHA1: 6a8ffecb07bfee6a539a5d0a86ffaa038676ea68
+SHA256: f7cab8d175445d372d62920ea0c0d4c3d8f03a308896672c91f9cdae3918a5c7
+Section: science
+Priority: extra
+Description: INDI Moravian CCD Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-mi-dbg
+Source: indi-mi
+Version: 1.8
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 158
+Depends: indi-mi (= 1.8)
+Filename: ./indi-mi-dbg_1.8_armhf.deb
+Size: 136436
+MD5sum: e6fc48b94552ccccb949ba451b2ba13d
+SHA1: f6e78f8e763c2f4c18339eb063a3f9b7e7c47b87
+SHA256: dedc166cd6dee06ee714f7eafa617a39e0a8fbaa9a2a45071ebe84513c6de93b
+Section: debug
+Priority: extra
+Description: INDI Moravian CCD Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 1be23656c4fb0ddf98bd1c1883439eecdf920814
+
+Package: indi-nexdome
+Version: 1.5
+Architecture: armhf
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 219
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-nexdome_1.5_armhf.deb
+Size: 58440
+MD5sum: a38465d4a1cc97e92dc6738bd446ee49
+SHA1: a8c4ca90c46ef681fc1994e5cd40a152705aa992
+SHA256: 7a5d18cd29c02dad22ee58e4778135110a52158b7fe6c55ffc0cefc9d7aea21a
+Section: science
+Priority: extra
+Description: INDI driver for NexDome.
+ .
+ NexDome is a 2.4m personal observatory dome with optional automation controls
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+Original-Maintainer: Gerry Rozema <gerryr@rozeware.com>
+
+Package: indi-nexdome-dbg
+Source: indi-nexdome
+Version: 1.5
+Architecture: armhf
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 909
+Depends: indi-nexdome (= 1.5)
+Filename: ./indi-nexdome-dbg_1.5_armhf.deb
+Size: 857440
+MD5sum: 607a92ae572c7ed3dafc4bc15f596c37
+SHA1: 79e8476077f853507f3f8b30b83054a411c7c277
+SHA256: 11199ef53a8d447d232d7d425f139df8efe8cb94dcc8af54c658534e99fc0178
+Section: debug
+Priority: extra
+Description: INDI NexDome driver debug symbols.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 9690f52d842b97479fad10a9cd703d1974103bb0
+Original-Maintainer: Gerry Rozema <gerryr@rozeware.com>
+
+Package: indi-nightscape
+Version: 1.0.6
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 82
+Depends: libc6 (>= 2.17), libftdi1-2 (>= 1.2), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 6), libftdi1
+Filename: ./indi-nightscape_1.0.6_armhf.deb
+Size: 24388
+MD5sum: e6b4086617d0df0adc20dfa010df5d0e
+SHA1: 44cef44d156bae61ff4b7c5bb2f769c963c1f9bf
+SHA256: b8b412b9964031a11208c603146d1da8d02edbe33c2bf984cd1c039e3fd5c3d5
+Section: science
+Priority: extra
+Description: INDI Driver for Celestron Nightscape 8300
+ Driver for Celestron Nightscape 8300.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-nightscape-dbg
+Source: indi-nightscape
+Version: 1.0.6
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 193
+Depends: indi-nightscape (= 1.0.6)
+Filename: ./indi-nightscape-dbg_1.0.6_armhf.deb
+Size: 164008
+MD5sum: c34ca42fea3b8e983a8ecabfe36761d5
+SHA1: 8d8be2c92c2ce58bd0109f77e5c2b33bb0a11569
+SHA256: 74767ac7086f4643dfef3d6262e9e032b2c1cebdbf85e8cf90eafda9955e244c
+Section: debug
+Priority: extra
+Description: INDI Driver for Celestron Nightscape 8300
+ Driver for Celestron Nightscape 8300.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: b693c9ad6168d7dc9399f5509ce19fba03ecaa58
+
+Package: indi-orion-ssg3
+Version: 0.1
+Architecture: armhf
+Maintainer: Ben Gilsrud <bgilsrud@gmail.com
+Installed-Size: 58
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2), libusb-1.0-0 (>= 2:1.0.8)
+Conflicts: indi-orion-ssg3cam
+Replaces: indi-orion-ssg3cam
+Filename: ./indi-orion-ssg3_0.1_armhf.deb
+Size: 16016
+MD5sum: adee44051864f5176d42be96f6ec4c20
+SHA1: 80645bd1bd1a6ffcb5511fc64661a715b11deee7
+SHA256: 7b7003dbbe5580355e8c2f7b2f97bb4828fab578b172f1516ab23657ac08e71b
+Section: science
+Priority: extra
+Description: INDI Driver for Orion StarShoot G3 and G4 cameras
+ Driver for Orion Starshoot G3 and G4 cameras
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-orion-ssg3-dbg
+Source: indi-orion-ssg3
+Version: 0.1
+Architecture: armhf
+Maintainer: Ben Gilsrud <bgilsrud@gmail.com
+Installed-Size: 148
+Depends: indi-orion-ssg3 (= 0.1)
+Conflicts: indi-orion-ssg3cam-dbg
+Replaces: indi-orion-ssg3cam-dbg
+Filename: ./indi-orion-ssg3-dbg_0.1_armhf.deb
+Size: 124992
+MD5sum: 601b265c6ecfd7f2e5c514cdb0c55566
+SHA1: f710afa0293f6049a86d83d2dea9e665df2da7c2
+SHA256: 7b17d65fb4f3d4865e70cb63a687585dec1644077734b394b26fb9ec5a841882
+Section: debug
+Priority: extra
+Description: INDI Driver for Orion StarShoot G3 and G4 cameras
+ Driver for Orion StarShoot G3 and G4 cameras
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: cfadde46c461764a90071a55bedd481a7a9bc44e
+
+Package: indi-pentax
+Version: 1.0
+Architecture: armhf
+Maintainer: Karl Rees <indidev@karlrees.com>
+Installed-Size: 308
+Depends: libc6 (>= 2.8), libcfitsio9 (>= 3.480~), libgcc-s1 (>= 3.5), libindi1, libjpeg62-turbo (>= 1.3.1), libpktriggercord, libraw20 (>= 0.16.0), libstdc++6 (>= 7), libricohcamerasdk
+Filename: ./indi-pentax_1.0_armhf.deb
+Size: 79788
+MD5sum: cc1377294f3443c9409a9d428db3c982
+SHA1: b2b78df3ca05ec18d82720853eafa946030015f2
+SHA256: a03dc5e2605858be7cb15d9028ca9a33d8f183deee05cefc21922d3188c7d30c
+Section: science
+Priority: extra
+Description: INDI Pentax driver.
+ Driver for Pentax DSLR cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-pentax-dbg
+Source: indi-pentax
+Version: 1.0
+Architecture: armhf
+Maintainer: Karl Rees <indidev@karlrees.com>
+Installed-Size: 1753
+Depends: indi-pentax (= 1.0)
+Filename: ./indi-pentax-dbg_1.0_armhf.deb
+Size: 1677524
+MD5sum: e4b4bd8b4a79fb548b41da6ef2c81f95
+SHA1: e61dd6e2c0b49d9e96c2c636ec7de5225c6c9d5e
+SHA256: 6e9717f674870c45e6aa3f84a1568842d0d217647d9ed7f58faf35de8a1f3241
+Section: debug
+Priority: extra
+Description: INDI Pentax driver.
+ Driver for Pentax DSLR cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 2a4b0083929b3e3ec7990912de5ab6109775059e
+
+Package: indi-playerone
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 126
+Depends: libc6 (>= 2.7), libgcc-s1 (>= 3.5), libindi1, libplayerone, libstdc++6 (>= 5.2)
+Filename: ./indi-playerone_1.0_armhf.deb
+Size: 36760
+MD5sum: 8c4901288b394cd70d699512b417455d
+SHA1: a166a60ca5d8b05de1e63808fe9007cd93098383
+SHA256: 4b7f077590a84f80a5b0a7b3e1370b46ce2c5ea04a964933c3214356f88385a3
+Section: science
+Priority: extra
+Description: INDI Driver for Playerone based cameras
+ Driver for Playerone based cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-playerone-dbg
+Source: indi-playerone
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 414
+Depends: indi-playerone (= 1.0)
+Filename: ./indi-playerone-dbg_1.0_armhf.deb
+Size: 368656
+MD5sum: 2e3e85d51d18c43015fc4d022163e0dd
+SHA1: 882e7ae17cef4103f35d2d45e6e344b842ab0328
+SHA256: 1c1306cf7ba4c3315c31e31e1d60dc89897ad0d79f06c1e0613156d1dcfc9784
+Section: debug
+Priority: extra
+Description: INDI Driver for Playerone based cameras
+ Driver for Playerone based cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: cacee979a0ca573f153544942b3c73048329de90 e97262740e1fb3cbcf0da5a3e29062ec475f139d eb08deff0978bda8f5390a42fa37309658fa9423
+
+Package: indi-qhy
+Version: 2.7
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 140
+Depends: libc6 (>= 2.4), libcfitsio9 (>= 3.480~), libgcc-s1 (>= 3.5), libindi1, libnova-0.16-0 (>= 0.16), libqhy, libstdc++6 (>= 6), libusb-1.0-0 (>= 2:1.0.8)
+Filename: ./indi-qhy_2.7_armhf.deb
+Size: 40096
+MD5sum: f42f47aca7a1c7e73f87826108525ff1
+SHA1: 30a69dbf5aa78f6856e59bc0793d059e10e172d5
+SHA256: e481d3ddf86f7a1404b07f64e097e1341676070c5dd5d9fb81f6b8668edca14a
+Section: science
+Priority: extra
+Description: INDI QHY Driver. This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-qhy-dbg
+Source: indi-qhy
+Version: 2.7
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 345
+Depends: indi-qhy (= 2.7)
+Filename: ./indi-qhy-dbg_2.7_armhf.deb
+Size: 303808
+MD5sum: 3626fd268d704bdae2b9f7b225ab780c
+SHA1: 0887f6d76ea4709820851502ce1f0056ed7b3860
+SHA256: 49b8d2c711c38ef3e9b171d3f99f5b82686579131c6d798b5d98606186a8feb1
+Section: debug
+Priority: extra
+Description: INDI QHY CCD Driver - Debug Symbols
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 544b47b349b818e90b7b7642196dac1180a095bb b677bcb2b6c2891cc11fe048f9e3085fb17497da df3641d097548cbe6e5af15eb2d06fade8feeaaa
+
+Package: indi-qsi
+Version: 0.9
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 71
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libqsi7, libstdc++6 (>= 5.2)
+Filename: ./indi-qsi_0.9_armhf.deb
+Size: 19448
+MD5sum: d0a8e8ffafd46e3c7c42d8019aada4dd
+SHA1: 377eefcbc2853ef8de8f32783960b9271d63c851
+SHA256: 10204206daf4edcaa0c25d1989b937dee8ee29d7486d0cb08910328deb47f56e
+Section: science
+Priority: extra
+Description: INDI QSI CCD Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-qsi-dbg
+Source: indi-qsi
+Version: 0.9
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 134
+Depends: indi-qsi (= 0.9)
+Filename: ./indi-qsi-dbg_0.9_armhf.deb
+Size: 110956
+MD5sum: 1bcec9208ae253c5e1f0d7befcc1d97e
+SHA1: c0c17c4d3637096a45ca6c02bdc73aaf7d58fdab
+SHA256: ec7e9ec948b725d14ccabef057090430307694e9c3643fb24fd18172fe6c464d
+Section: debug
+Priority: extra
+Description: INDI QSI CCD Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 4c100a1d0cd8c2d99e2a1386880b7ce59bcf5cdf
+
+Package: indi-rpi-gpio
+Version: 0.4
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 71
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libpigpiod-if2-1, libstdc++6 (>= 5.2), libpigpiod
+Filename: ./indi-rpi-gpio_0.4_armhf.deb
+Size: 19340
+MD5sum: 572cab6784eb934b807a3b0e6303b75c
+SHA1: 0cbb63922084e58662cbb6aa16e0b76decd72bf5
+SHA256: 70e3be13f3b420c687327f13021669e2d022b9bc4fc505cbee0c97f63b67a4f5
+Section: science
+Priority: extra
+Description: INDI Driver for RaspberryPi GPIO
+ INDI Driver for RaspberryPi GPIO on/off and PWM
+ This driver is compatible with any INDI client but only works on Raspberry Pi devices
+
+Package: indi-rpi-gpio-dbg
+Source: indi-rpi-gpio
+Version: 0.4
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 191
+Depends: indi-rpi-gpio (= 0.4)
+Filename: ./indi-rpi-gpio-dbg_0.4_armhf.deb
+Size: 166604
+MD5sum: 1560f48e0dcec9e241039177956cf4ad
+SHA1: 89ae92182741cdad40eb5f90fc962b2c9f6e6242
+SHA256: 2ccca7588c442ac4b5c558a553fe5795f295840151035e592943c16ec3f7a8db
+Section: debug
+Priority: extra
+Description: INDI Driver for RaspberryPi GPIO
+ INDI Driver for RaspberryPi GPIO on/off and PWM
+ This driver is compatible with any INDI client but only works on Raspberry Pi devices
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 50db238cfc8efafa042a46ad2349104ae6393168
+
+Package: indi-rtklib
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 34
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2), rtklib
+Filename: ./indi-rtklib_1.0_armhf.deb
+Size: 9152
+MD5sum: d33a92d509f84ef424a74b1ec4ee35f7
+SHA1: b9d754d599df8c76e533f89a632390db99f12b20
+SHA256: 0823de673cfaf41a1cf92cccb4e5c5b62fbd38727f18d598648d650e41dbfce6
+Section: science
+Priority: extra
+Description: Precise positioning for INDI
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-rtklib-dbg
+Source: indi-rtklib
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 91
+Depends: indi-rtklib (= 1.0)
+Filename: ./indi-rtklib-dbg_1.0_armhf.deb
+Size: 73284
+MD5sum: 3063f09a3eaed2c1dd0d38e0bf4df770
+SHA1: 28d29636f1e36e460d661d5a35eb7a6c30140280
+SHA256: 1e8037f3e1c635846f96acaf64f0a9d4142897dcb8abf5d144f4380df42246dc
+Section: debug
+Priority: extra
+Description: Precise positioning for INDI
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 03a7daac6098dcea25fcc6888fb697f024aa27c3
+
+Package: indi-sbig
+Version: 2.1
+Architecture: armhf
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 108
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.5), libindi1, libsbig, libstdc++6 (>= 5.2)
+Filename: ./indi-sbig_2.1_armhf.deb
+Size: 32636
+MD5sum: c399ae7c1612422a78dc21d188c5e896
+SHA1: a3a04c5f351709e342545cef5114ba00694df594
+SHA256: 480e5d1ebc48cbad42ce292821056b1722f28f844de1b826314994251dfaec08
+Section: science
+Priority: extra
+Description: INDI SBIG Santa Barbra Instrument Group CCD Driver
+ Driver for INDI SBIG Santa Barbra Instrument Group CCD.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+Original-Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+
+Package: indi-sbig-dbg
+Source: indi-sbig
+Version: 2.1
+Architecture: armhf
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 280
+Depends: indi-sbig (= 2.1)
+Filename: ./indi-sbig-dbg_2.1_armhf.deb
+Size: 251200
+MD5sum: 0e0eab703fa06763522cc20dfd033c2d
+SHA1: e546723cb5aea1715709483b879c03693ffff7eb
+SHA256: c84f09586b145e1912d24f27a29c1e48d791b58cad942f1aafc8458f983c6552
+Section: debug
+Priority: extra
+Description: INDI SBIG Santa Barbra Instrument Group CCD Driver
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: f9d2fb1444afe4ea48824c333a310119bf85b07c
+Original-Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+
+Package: indi-shelyak
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 59
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-shelyak_1.0_armhf.deb
+Size: 15704
+MD5sum: 342e1e78e606771eaad695abee5f0474
+SHA1: 1c661103ee6e9a15ffed701bc5e4b29e4d2c0139
+SHA256: 07e59021c22dc460da246e487b388a31985d622a44cf3163b3777c5342c44b6d
+Section: science
+Priority: extra
+Description: INDI Shelyak and Alpy Spectrograph Drivers.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-shelyak-dbg
+Source: indi-shelyak
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 256
+Depends: indi-shelyak (= 1.0)
+Filename: ./indi-shelyak-dbg_1.0_armhf.deb
+Size: 228196
+MD5sum: b631f05ec2bc607970788798c24b7bf3
+SHA1: 22157846177cedf2b14aec8cb78dd88c141e7d3a
+SHA256: f0e8c2ca8d3a0e49761ccacb6c6b7aaece61bffa447cfcccc28094b573f61902
+Section: debug
+Priority: extra
+Description: INDI Shelyak and Alpy Spectrograph Drivers.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 4f2d25915a1da5e4ca02bfb5673f9136c46da1d0 9153a8ea50a44c1abe6ea7d885671bae53bd6b5d
+
+Package: indi-spectracyber
+Version: 1.3
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 48
+Depends: libc6 (>= 2.7), libgcc-s1 (>= 3.5), libindi1, libnova-0.16-0 (>= 0.16), libstdc++6 (>= 5.2)
+Filename: ./indi-spectracyber_1.3_armhf.deb
+Size: 12688
+MD5sum: 9ba69f2458de4e7e34a9b5df14d52f62
+SHA1: ad0190f412cdd5fa2683fcc70e71f455ade48cc2
+SHA256: 4860c5b8fcae9d629def9478ac09dafb5e1aaa48435bc85a9ec1148f62bd469f
+Section: science
+Priority: extra
+Description: This package provides the INDI driver for Radio Astronomy Supplies
+ SpectraCyber hydrogen line spectrometer
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-spectracyber-dbg
+Source: indi-spectracyber
+Version: 1.3
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 100
+Depends: indi-spectracyber (= 1.3)
+Filename: ./indi-spectracyber-dbg_1.3_armhf.deb
+Size: 81732
+MD5sum: 57d1f069071cc0923e66959532f98d44
+SHA1: c666e7a84d4aa46eb5d5648dfeeb851f396f494c
+SHA256: c3a461ffa3e40db4c11d965b4b85d48b7cdde591fc3be28dc08896014a88fe4c
+Section: science
+Priority: extra
+Description: This package provides the INDI driver for Radio Astronomy Supplies
+ SpectraCyber hydrogen line spectrometer
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 2a614c79a85f1c7bfb83b361c5d438160090d55a
+
+Package: indi-starbook
+Version: 0.8
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 223
+Depends: libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), libgcc-s1 (>= 3.5), libindi1, libnova-0.16-0 (>= 0.16), libstdc++6 (>= 9)
+Filename: ./indi-starbook_0.8_armhf.deb
+Size: 59460
+MD5sum: 2f21e4782478a3bfc700706bab85c18c
+SHA1: dfde2e71d0b42c376e9deccfc47d565656347e4c
+SHA256: 097c57e4d1216b2c4e302295ee4936d9a5a86ef7626265a9603acd9e5c8647a2
+Section: science
+Priority: extra
+Description: INDI Starbook Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This INDI driver controls Vixen Starbook telescope controllers. This driver aims for compatibility with first generation Starbook.
+
+Package: indi-starbook-dbg
+Source: indi-starbook
+Version: 0.8
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 1392
+Depends: indi-starbook (= 0.8)
+Filename: ./indi-starbook-dbg_0.8_armhf.deb
+Size: 1342596
+MD5sum: fff4bb958529ea525e3e42cd185027d5
+SHA1: 3b964b634a48fbd4574e9b5408a05ba5928adcc7
+SHA256: 478559a1d0ee7cfba3cb23157c6af77100ac0058f70864ffe17fbdb1ae827f5c
+Section: debug
+Priority: extra
+Description: INDI Starbook Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 38b1a67d536424d7d187c87aa3d1c73ba9a4710e
+
+Package: indi-starbook-ten
+Version: 0.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 340
+Depends: libc6 (>= 2.28), libgcc-s1 (>= 3.5), libindi1, libnova-0.16-0 (>= 0.16), libstdc++6 (>= 9), zlib1g
+Filename: ./indi-starbook-ten_0.1_armhf.deb
+Size: 86696
+MD5sum: 53eb7b4f70eff37a1a2710e981f766dd
+SHA1: 37b371c39c34677fe11233c69f31746654067785
+SHA256: 1268424481c4eb2096a35edb16e4c9ff9769da46aa7f9093941313b2d8a96976
+Section: science
+Priority: extra
+Description: INDI Starbook Ten Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This INDI driver controls Vixen Starbook Ten telescope controllers through an HTTP link.
+
+Package: indi-starbook-ten-dbg
+Source: indi-starbook-ten
+Version: 0.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 1909
+Depends: indi-starbook-ten (= 0.1)
+Filename: ./indi-starbook-ten-dbg_0.1_armhf.deb
+Size: 1830844
+MD5sum: 625709542b6f5f225f661941ba353cc5
+SHA1: 8364c5ec349be7dc2a68bdbff4634027f4ec2330
+SHA256: 6e860abb66da3a33a2e50acf06deb3c8a4ee2a8d0e1980a61f3a1516cd648470
+Section: debug
+Priority: extra
+Description: INDI Starbook Ten Driver.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 950a0f39a6766b8c4dfdec86bcdc6cbfd2f6a8b6
+
+Package: indi-svbony
+Version: 1.3.3
+Architecture: armhf
+Maintainer: Blaise-Florentin Collin <thx8411@yahoo.fr>
+Installed-Size: 78
+Depends: libc6 (>= 2.4), libcfitsio9 (>= 3.480~), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2), libsvbony
+Filename: ./indi-svbony_1.3.3_armhf.deb
+Size: 23684
+MD5sum: f29f732011ef2217369f8f5dab34800e
+SHA1: 06af30164270ce3635f96e4098f092f4384bd548
+SHA256: 04dd24566e55f30456421c25ff9c7ac43e46b50c4df30b65904375389f2e8858
+Section: libs
+Priority: extra
+Description: INDI driver for the SVBONY Camera
+
+Package: indi-svbony-dbgsym
+Source: indi-svbony
+Version: 1.3.3
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Blaise-Florentin Collin <thx8411@yahoo.fr>
+Installed-Size: 198
+Depends: indi-svbony (= 1.3.3)
+Filename: ./indi-svbony-dbgsym_1.3.3_armhf.deb
+Size: 175792
+MD5sum: 496f62ca5a6d53eb6cd3ff8b4d5823f8
+SHA1: 0ed3c6ca28148900d82fc6530fc0db9fce713c92
+SHA256: c979db496f4e88d0f4e9e61249646e328f4e6be9a0a151346064404f6c127da7
+Section: debug
+Priority: optional
+Description: debug symbols for indi-svbony
+Build-Ids: c155cfb095129ffca04bce98bbdf479a02f8be42
+
+Package: indi-sx
+Version: 1.16
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 134
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2), libusb-1.0-0 (>= 2:1.0.9)
+Conflicts: firmware-ccd
+Replaces: firmware-ccd
+Filename: ./indi-sx_1.16_armhf.deb
+Size: 31668
+MD5sum: 08ce0fe8c0f31dd978d3f3fcc3249507
+SHA1: 3a3dc48e6a08bebc0537fb7f241130eba9b8d02d
+SHA256: 5d077113e028c35c7a46e334a35f8f2b55758e94e0b4d6c1f320318f64ca5869
+Section: science
+Priority: extra
+Description: INDI Starlight Xpress CCD and Filter Wheel driver.
+ Driver for Startlight XPress CCD and Filter Wheel.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-sx-dbg
+Source: indi-sx
+Version: 1.16
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 307
+Depends: indi-sx (= 1.16)
+Filename: ./indi-sx-dbg_1.16_armhf.deb
+Size: 256684
+MD5sum: c570d98cf0776fd1e507ecc5bc824f76
+SHA1: efbddf49f02f06d18de39ba8e66f2d84376d7009
+SHA256: 2aeebe58ba9f536f6c50a61e0683ae8737f4a43af8ac4545b48484a7df42c7e7
+Section: debug
+Priority: extra
+Description: INDI Starlight Xpress CCD and Filter Wheel driver.
+ Driver for Startlight XPress CCD and Filter Wheel.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 2824859c6c95f5685788d42ac6c7d4d2fe1b9598 727de2c12dc33d50d6f4adf205bbd1b582f32a34 9136e2ac5cc0e34ce90bce75cdebdedb5c8dad69 f597c256427b1e342bfe2e33608cd59e165276ba
+
+Package: indi-talon6
+Version: 2.0
+Architecture: armhf
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 49
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-talon6_2.0_armhf.deb
+Size: 14404
+MD5sum: 458583a33391f9d662f62ac7c4008efb
+SHA1: 28c82437ce63da46d6d0ba791b3f47ec85b05913
+SHA256: d6d55825b8d6d77e49ed52590dcb5425678ce69493be5b1a0cfee6359d823477
+Section: science
+Priority: extra
+Description: INDI driver for Talon6 Roll Off Roof.
+ .
+ Talon6 is a control system for obersvatory automation
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+Original-Maintainer: Ferrante Enriques <ferrante.enriques@gmail.com>
+
+Package: indi-talon6-dbg
+Source: indi-talon6
+Version: 2.0
+Architecture: armhf
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 109
+Depends: indi-talon6 (= 2.0)
+Filename: ./indi-talon6-dbg_2.0_armhf.deb
+Size: 87432
+MD5sum: 0ae4e1fe4b9280ddc4300d44c909c8d9
+SHA1: 4fd8df5a139cd21d1128dce1db33547f8fc28b2f
+SHA256: 1c04557fc43cf39f535166bc49eff7fe2acf1ab585e2a7bd2d4394fb25fd1550
+Section: debug
+Priority: extra
+Description: INDI Talon6 driver debug symbols.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: db56c96189471f93701dae9be9c272c0a2dd3e59
+Original-Maintainer: Ferrante Enriques <ferrante.enriques@gmail.com>
+
+Package: indi-toupbase
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 753
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2), libusb-1.0-0 (>= 2:1.0.8), libtoupcam, libaltaircam, libstarshootg, libnncam, libmallincam, libomegonprocam
+Conflicts: indi-altaircam, indi-toupcam
+Replaces: indi-altaircam, indi-toupcam
+Filename: ./indi-toupbase_1.0_armhf.deb
+Size: 83476
+MD5sum: ed36ea6f49a3698ccd9f11b6626b80fd
+SHA1: a7d70fe77501fffbb2f991fe14debb6d84d727e1
+SHA256: b4051b483c324f26dba927a6f5206aef136468883e0fdec5bdb7f31d2e6649fe
+Section: science
+Priority: extra
+Description: INDI Driver for Touptek based cameras
+ Driver for Touptek based cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-toupbase-dbg
+Source: indi-toupbase
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 1964
+Depends: indi-toupbase (= 1.0)
+Conflicts: indi-altaircam-dbg, indi-toupcam-dbg
+Replaces: indi-altaircam-dbg, indi-toupcam-dbg
+Filename: ./indi-toupbase-dbg_1.0_armhf.deb
+Size: 1745988
+MD5sum: bf1010c0afd0e7f55931743a2703d5c6
+SHA1: 1e2aa7cfb4ff2f961fd3fe5140b34f49b56a9169
+SHA256: f1f7718a09ac22cc17b14acb3367167d1da64e1fd8e338125af744f48ebddea7
+Section: debug
+Priority: extra
+Description: INDI Driver for Touptek based cameras
+ Driver for Touptek based cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 08257e0b3640efd2985dd328fb6d946296d8e071 11c19154de0134ad0fdcbddea2291536556e7ae3 26a482abbe9c9b426719cf51d33ed4d9a437cd94 4c97ddaa159f43df92e91be4c2e70ad423ca31c2 50606a49236ddd6a3873010667262db9bc0be8d6 c6c27d04a1a91fa956a7a60f267fe547437b8fb3
+
+Package: indi-webcam
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 86
+Depends: libavcodec58 (>= 7:4.2), libavdevice58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libc6 (>= 2.4), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 6), libswscale5 (>= 7:4.0)
+Filename: ./indi-webcam_1.0_armhf.deb
+Size: 26220
+MD5sum: d311210eedbceb8e4a45af758f2c8390
+SHA1: 269d14cbbd1c8390059c19556fa0f526a5033a13
+SHA256: dda92eedcce80f370696ff81f2cf732453e8583128f177d7f2984c45dc97583a
+Section: science
+Priority: extra
+Description: INDI Driver for FFMPEG based web cameras.
+ Driver for FFMPEG Cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-webcam-dbg
+Source: indi-webcam
+Version: 1.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 293
+Depends: indi-webcam (= 1.0)
+Filename: ./indi-webcam-dbg_1.0_armhf.deb
+Size: 267260
+MD5sum: 9e0f86cb271187f29a958d75ed96b928
+SHA1: af29e49621bcbdcb6655888f7027ed88343d73d8
+SHA256: e153f83d7ab5b0e859efdb34e0a55aab6a7fe13cfdfc5328fa74542d53cd4e91
+Section: debug
+Priority: extra
+Description: INDI Driver for FFMPEG based web cameras
+ Driver for FFMPEG Cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: cfa31f5c524b63874b3837bba527c60802975553
+
+Package: indi-weewx-json
+Version: 1.0
+Architecture: armhf
+Maintainer: Rick Bassham <brodrick.bassham@gmail.com>
+Installed-Size: 153
+Depends: libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), libgcc-s1 (>= 3.5), libindi1, libstdc++6 (>= 5.2)
+Filename: ./indi-weewx-json_1.0_armhf.deb
+Size: 38288
+MD5sum: bae958725a9faefaca89ffe2cb63234e
+SHA1: 9c0ebc69539ec440e38366d23f5bb17e08b77cb5
+SHA256: 8735e2be651001d9e093c7e5b4b18a7405e5fd3d4d4ca2c126322529aa07feb4
+Section: science
+Priority: extra
+Description: INDI driver for the WeeWX Weather Station
+
+Package: indi-weewx-json-dbgsym
+Source: indi-weewx-json
+Version: 1.0
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Rick Bassham <brodrick.bassham@gmail.com>
+Installed-Size: 552
+Depends: indi-weewx-json (= 1.0)
+Filename: ./indi-weewx-json-dbgsym_1.0_armhf.deb
+Size: 514536
+MD5sum: a2fc792f6f67c34105b4f35c53342c0f
+SHA1: 53b9afeb2c5e802f155aa45bf7c2037e7271c3d4
+SHA256: 699ff69fbde0fd067e34586adf2c299f42a7ec2a4a650bb85909770c5d05d2b4
+Section: debug
+Priority: optional
+Description: debug symbols for indi-weewx-json
+Build-Ids: 63f7a2259b5302d5237da4f472a61fa6f5ce5194
+
+Package: libahp-gt
+Version: 1.5.8
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 131
+Depends: libc6 (>= 2.28)
+Filename: ./libahp-gt_1.5.8_armhf.deb
+Size: 36040
+MD5sum: aabc28387936ccef23e48e401568430d
+SHA1: a3abc34a358d92f2dd9f2f372dc0dd2b396c7b6c
+SHA256: 5923b05b7f6b51fdf2210d9027642d9cbdc6e73afc5a7f0230c0bde272390050
+Section: libs
+Priority: extra
+Description: AHP GT controllers driver library.
+ .
+ This package contains the library.
+
+Package: libahp-gt-dbgsym
+Source: libahp-gt
+Version: 1.5.8
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 25
+Depends: libahp-gt (= 1.5.8)
+Filename: ./libahp-gt-dbgsym_1.5.8_armhf.deb
+Size: 4956
+MD5sum: 746aa322dafdd48f283edadb9c5c9607
+SHA1: 35c5171303e5daea0a1ec33563556e88998587bd
+SHA256: 74c70ec892ef4e3b18bb89266a52791c7eb25b73a8bd9c99962a0e2c4d9906b0
+Section: debug
+Priority: optional
+Description: debug symbols for libahp-gt
+Build-Ids: 41a78772a0e599605bd46cfae956b0c6285701f2
+
+Package: libahp-xc
+Version: 1.0.10
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 104
+Depends: libc6 (>= 2.28)
+Filename: ./libahp-xc_1.0.10_armhf.deb
+Size: 29060
+MD5sum: d69df8b0a875493e0d7115397385a922
+SHA1: 2ceb482051efc3d76544d43bab480302974c39c5
+SHA256: 1f99114976bf0a50fd452af3290ce6977e031dbbe0906b9c79696536999f91f4
+Section: libs
+Priority: extra
+Description: AHP XC cross-correlator series driver library.
+ .
+ This package contains the library.
+
+Package: libahp-xc-dbgsym
+Source: libahp-xc
+Version: 1.0.10
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 23
+Depends: libahp-xc (= 1.0.10)
+Filename: ./libahp-xc-dbgsym_1.0.10_armhf.deb
+Size: 4460
+MD5sum: 06e1302e0ec640108a44673ba5ba75a8
+SHA1: 38d65970adae06582428c34b6e66c49fe1b38c77
+SHA256: 6a1fe1aba2c82af72b77643a330d0fdab8367d30086e3e88c7b2a3d5d7e1276c
+Section: debug
+Priority: optional
+Description: debug symbols for libahp-xc
+Build-Ids: d2718e10e11ce4d4caac33200291a80f212ac332
+
+Package: libaltaircam
+Version: 1.53.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 2794
+Depends: libc6 (>= 2.15)
+Filename: ./libaltaircam_1.53.2_armhf.deb
+Size: 735332
+MD5sum: 95385e95a3713676c601fc9854f7a595
+SHA1: 958b5c421a522a3826a47b60bb21c11f5afb28b9
+SHA256: c78240fe12bb0656fd4cecbb91cf39bc269852c2eee0fe101bf5c79d2f282c47
+Section: libs
+Priority: extra
+Description: Library for Altair Astro Cameras.
+
+Package: libapogee-dbg
+Source: libapogee3
+Version: 3.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 5349
+Depends: libapogee3 (= 3.2)
+Filename: ./libapogee-dbg_3.2_armhf.deb
+Size: 5210748
+MD5sum: 024e1d9b5b3e3900eff9c9da9e355afb
+SHA1: 91fd4ef519a913dcc59b206c1275bf1decbb664f
+SHA256: 0b1d2a5ee4f40068c52d651b73c15145a1716bbcc56c18fcf9b9ccfa0f324e65
+Section: debug
+Priority: extra
+Description: Apogee Library debug symbols
+ .
+ This package contains debug symbols.
+Build-Ids: bfd05ca7bf278b0021baf60374ca7f1a0ebe890c
+
+Package: libapogee3
+Version: 3.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 7572
+Depends: libc6 (>= 2.15), libcurl3-gnutls (>= 7.16.2), libgcc-s1 (>= 3.5), libstdc++6 (>= 9), libusb-1.0-0 (>= 2:1.0.8)
+Filename: ./libapogee3_3.2_armhf.deb
+Size: 328128
+MD5sum: 71c7e84415f2d4b41fabde2fd4d7d6d0
+SHA1: 647b90f428c3c1b399d283f93b48fbafa34d963a
+SHA256: 4eb15ccdffc9b8dd61ee8ed2b493b6f8dd5e3afc3a00d695e34b9653db5df405
+Section: libs
+Priority: extra
+Description: Apogee Library
+ .
+ This package includes library to control Apogee CCDs and Filter Wheels.
+
+Package: libapogee3-dev
+Source: libapogee3
+Version: 3.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 246
+Depends: libapogee3
+Filename: ./libapogee3-dev_3.2_armhf.deb
+Size: 36936
+MD5sum: 4bf84daf94880de67f5504afe593a4ab
+SHA1: 3e3ea3c59ec7442f035beb2d4801ac7371d706ef
+SHA256: 846d4d45c1da60affb540852afbeccbb3591c250818511ec53bff6673ef10d91
+Section: libs
+Priority: extra
+Description: Apogee Library development headers
+ .
+ This package includes development headers for Apogee CCDs and Filter Wheels.
+
+Package: libasi
+Version: 1.27
+Architecture: armhf
+Maintainer: Radek Kaczorek <rkaczorek@gmail.com>
+Installed-Size: 2433
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 4.6), libusb-1.0-0 (>= 2:1.0.16)
+Conflicts: asi-common
+Replaces: asi-common
+Filename: ./libasi_1.27_armhf.deb
+Size: 479220
+MD5sum: 19aeddfe2325dd153b6c7009e89b32f0
+SHA1: a86173f21b242010270e32fa0fde674ac7a73c79
+SHA256: 60a227023d867ace61b3c5f83a2623d40e5668f7abf03462c68d22d1f14ab5b4
+Section: libs
+Priority: extra
+Description: Library for ASI Cameras, Filter Wheel, Focuser and ST4
+
+Package: libatik
+Version: 2.2.8
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 27527
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.5), libstdc++6 (>= 6), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.16)
+Conflicts: atikccd
+Replaces: atikccd
+Filename: ./libatik_2.2.8_armhf.deb
+Size: 4800244
+MD5sum: daddbb4c91647f4cc5854fa2b1c6af0f
+SHA1: 033479ffcc9fc5fc685653860a9c28e72b4223f5
+SHA256: d612278091d30cea1b5e539dc8454e30c9d08b21df54568aff5c7f02fd7e4ef0
+Section: libs
+Priority: extra
+Description: Library for Atik Cameras.
+
+Package: libatik-dbgsym
+Source: libatik
+Version: 2.2.8
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 1110
+Depends: libatik (= 2.2.8)
+Filename: ./libatik-dbgsym_2.2.8_armhf.deb
+Size: 636232
+MD5sum: 12186b02a8f66daf643178de1c377b65
+SHA1: 308801800350931c6d4e302ee3927c0a0907ada1
+SHA256: a5c9cb649672c577953f3d6acddaa604d6822db7c91f3eb2196530da7082bbea
+Section: debug
+Priority: optional
+Description: debug symbols for libatik
+Build-Ids: 022a6f49607c07ee1de55a5478a6c8c5a07e7c73
+
+Package: libfishcamp
+Version: 1.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 197
+Depends: libc6 (>= 2.7), libusb-1.0-0 (>= 2:1.0.22)
+Filename: ./libfishcamp_1.2_armhf.deb
+Size: 42372
+MD5sum: cbb9b240e36341f14c129c3402b111c0
+SHA1: 789ff2b0c94bc86717b46b226a57fb98393cd1d3
+SHA256: e31254da45b0b12007117f5d83ddbf867b55b2606b985d899597b6cadaa72f38
+Section: libs
+Priority: extra
+Description: Fishcamp Engineering CCD Library
+ .
+ This package contains the library.
+
+Package: libfishcamp-dbgsym
+Source: libfishcamp
+Version: 1.2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 57
+Depends: libfishcamp (= 1.2)
+Filename: ./libfishcamp-dbgsym_1.2_armhf.deb
+Size: 39976
+MD5sum: 6a961f7502611a7bc9ee0e13b3d65882
+SHA1: 2b6d21a41639c1261cb2f69c27a56466f72dd1a6
+SHA256: c2c7f37b86288dbba9f68f95417914a57aec1d04149eb3651f63662d1bea4778
+Section: debug
+Priority: optional
+Description: debug symbols for libfishcamp
+Build-Ids: 8b00649108528e9afea6c0d33d981c6197eb7fcd
+
+Package: libfishcamp-dev
+Source: libfishcamp
+Version: 1.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 38
+Depends: libfishcamp (= 1.2)
+Filename: ./libfishcamp-dev_1.2_armhf.deb
+Size: 7636
+MD5sum: 15d77acdc17b81363b7eb1205b30f80c
+SHA1: 76651972a838ddbfd5a784ab64201b6c845b177c
+SHA256: 1f87739c15f9177757f10603934cec7d50a9b218577eaa61826830c6b8337b8f
+Section: libs
+Priority: extra
+Description: Fishcamp Engineering CCD Library
+ .
+ This package contains the development files.
+
+Package: libfli-dbg
+Source: libfli
+Version: 2.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 135
+Depends: libfli2 (= 2.0)
+Filename: ./libfli-dbg_2.0_armhf.deb
+Size: 110276
+MD5sum: 114cb4e5dbae1907710bb60eb231d32d
+SHA1: d8a620aeeffcb34f0c687f1a3fa0ca35ed663662
+SHA256: 134d697dd93a839cca281ec233841745c87c5050ab3f3a2027244f1a82a122b8
+Section: debug
+Priority: extra
+Description: Finger Lakes Instruments (FLI) debug symbols.
+ .
+ This package contains debug symbols.
+Build-Ids: 758e90c7879390a014879fe28904586a39d5e0a3
+
+Package: libfli-dev
+Source: libfli
+Version: 2.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 25
+Depends: libfli2
+Filename: ./libfli-dev_2.0_armhf.deb
+Size: 5212
+MD5sum: 07671bb34ce9a7247d1a5e1c7363016d
+SHA1: fe09d6442ed6f1f167c6448e113de8c9b2d513cb
+SHA256: b76797f5f96c128b854c769da9fb856f179b47b16d6df49747976811ebf4e8dd
+Section: libs
+Priority: extra
+Description: This contains development headers for the Finger Lakes Instruments library.
+
+Package: libfli2
+Source: libfli
+Version: 2.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 120
+Depends: libc6 (>= 2.29), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./libfli2_2.0_armhf.deb
+Size: 37152
+MD5sum: 63ee42485c86bda5d83879cb0f4f4eff
+SHA1: 1fa781763816e0cf315a656a3c4f1061021931d8
+SHA256: ef4d456c879f98ba32f72a5b1cc976d4c7ed88d1b05c5340886f1085d2c752e8
+Section: libs
+Priority: extra
+Description: Finger Lakes Instrument library is used by applications to control FLI CCDs and Filter wheels.
+
+Package: libindi-data
+Source: libindi
+Version: 2.0.0
+Architecture: all
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 59
+Filename: ./libindi-data_2.0.0_all.deb
+Size: 11320
+MD5sum: 9a2e35717d036a56e0651a2953d4cd2b
+SHA1: 7d7cf9ba0863faddd5add9432ebce31907ac1f80
+SHA256: 0359efb2de10183565ac10fc240da08c000031ef96f5e8662d945576fc17bbe1
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.indilib.org/
+Description: Instrument-Neutral Device Interface library -- shared data
+ INDI (Instrument-Neutral Device Interface) is a distributed XML-based
+ control protocol designed to operate astronomical instrumentation.
+ INDI is small, flexible, easy to parse, scalable, and stateless.
+ It supports common DCS functions such as remote control, data acquisition,
+ monitoring, and a lot more.
+ .
+ This package contains the data files for the INDI library.
+
+Package: libindi-dev
+Source: libindi
+Version: 2.0.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 8160
+Depends: libindi1 (= 2.0.0), libusb-1.0-0-dev
+Filename: ./libindi-dev_2.0.0_armhf.deb
+Size: 810304
+MD5sum: 58d86e4cab01709727f971b3ddcf101e
+SHA1: edfa48575a5ca82615e382ef3bfbf65b8aa0b5e5
+SHA256: fd1c97aa5e9e03a4de19774b57ea5625269be6e96d86b8ea6fcc0fcf55771aa0
+Section: libdevel
+Priority: optional
+Homepage: http://www.indilib.org/
+Description: Instrument-Neutral Device Interface library -- development files
+ INDI (Instrument-Neutral Device Interface) is a distributed XML-based
+ control protocol designed to operate astronomical instrumentation.
+ INDI is small, flexible, easy to parse, scalable, and stateless.
+ It supports common DCS functions such as remote control, data acquisition,
+ monitoring, and a lot more.
+ .
+ This package contains development headers and libraries for the INDI library.
+
+Package: libindi1
+Source: libindi
+Version: 2.0.0
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 2727
+Depends: libc6 (>= 2.30), libcfitsio9 (>= 3.480~), libfftw3-double3 (>= 3.3.5), libgcc-s1 (>= 3.5), libgsl25 (>= 2.6), libgslcblas0 (>= 2.6), libjpeg62-turbo (>= 1.3.1), libnova-0.16-0 (>= 0.16), libstdc++6 (>= 6), libusb-1.0-0 (>= 2:1.0.9), zlib1g (>= 1:1.1.4), libindi-data (>= 2.0.0), indi-bin (>= 2.0.0)
+Conflicts: libindi-plugins, libindi0, libindialignmentdriver1, libindidriver1
+Replaces: libindi-plugins, libindi0, libindialignmentdriver1, libindidriver1
+Filename: ./libindi1_2.0.0_armhf.deb
+Size: 540096
+MD5sum: 58cadc485c9ab04a56c3206535249466
+SHA1: 56c22f6f4aa501bfef2914bac9336e4dc1e4142f
+SHA256: 78bba0f663f0f4f2666b9a9a0a4a31d00f9b172686488572f1a7b474401a7492
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.indilib.org/
+Description: Instrument-Neutral Device Interface library -- shared library
+ INDI (Instrument-Neutral Device Interface) is a distributed XML-based
+ control protocol designed to operate astronomical instrumentation.
+ INDI is small, flexible, easy to parse, scalable, and stateless.
+ It supports common DCS functions such as remote control, data acquisition,
+ monitoring, and a lot more.
+ .
+ This package contains the shared library.
+
+Package: libinovasdk
+Version: 1.3.6
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 136
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./libinovasdk_1.3.6_armhf.deb
+Size: 47436
+MD5sum: 95853b138492ea2f051fbc686bdd33ee
+SHA1: d7e04e35211b378842124b67bc581f7d48dea091
+SHA256: ead1ed3ebd51fea9ec5bf1e854c671d8a86c4a6ca10d22c164cd25f30d07b574
+Section: libs
+Priority: extra
+Description: i.Nova Technologies Camera SDK.
+ .
+ This package contains the library.
+
+Package: libinovasdk-dbgsym
+Source: libinovasdk
+Version: 1.3.6
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 52
+Depends: libinovasdk (= 1.3.6)
+Filename: ./libinovasdk-dbgsym_1.3.6_armhf.deb
+Size: 11024
+MD5sum: a84c960284b15fec3bce9c32ed23c3f6
+SHA1: a13278cf250c50cb027d1e39eae66a1d5a2ec6c8
+SHA256: 8d25edd10150ab1504f11ac1a25aea5d6fa5e261e9070a131c3ba232aeebdd44
+Section: debug
+Priority: optional
+Description: debug symbols for libinovasdk
+Build-Ids: b674f908efe5fd7021a039c329afdb8c533583c5
+
+Package: libmallincam
+Version: 1.49.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 1997
+Depends: libc6 (>= 2.8)
+Filename: ./libmallincam_1.49.1_armhf.deb
+Size: 588956
+MD5sum: b5a10eb98e3888091ba1be9d1d2ade4e
+SHA1: cfad5baff87c5f3579cfd93611851a2268177274
+SHA256: 63a881cac8e7a9738d786647cdab730f45aa76ed0806c925edd284f0d36c9a18
+Section: libs
+Priority: extra
+Description: Library for Mallincam Cameras.
+
+Package: libmicam
+Version: 1.0
+Architecture: armhf
+Maintainer: Radek Kaczorek <rkaczorek@gmail.com>
+Installed-Size: 159
+Depends: libc6 (>= 2.4), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./libmicam_1.0_armhf.deb
+Size: 54372
+MD5sum: c9c544de01b7cf4e7830233c7a1cf6b9
+SHA1: 36c8377a1e09c9871e4a50a5acd2c2ac6db8feed
+SHA256: fac6bf23267c2a008929958641d8fd9d99286e90e052885b4c148b83c929cf56
+Section: libs
+Priority: extra
+Description: Library for Moravian Instruments Cameras
+
+Package: libmicam-dbgsym
+Source: libmicam
+Version: 1.0
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Radek Kaczorek <rkaczorek@gmail.com>
+Installed-Size: 17
+Depends: libmicam (= 1.0)
+Filename: ./libmicam-dbgsym_1.0_armhf.deb
+Size: 3212
+MD5sum: cb131219e246f0f0e5744b8081eef139
+SHA1: b89bdf89089c12b95de11977decb50faf228bad7
+SHA256: c49dea8747273519b036e77914e25bcf60510ed12bcdf02cf35c1e6f9f2072ca
+Section: debug
+Priority: optional
+Description: debug symbols for libmicam
+Build-Ids: 77528e2ec09ae8238d3169fbea40639cd2610dc2
+
+Package: libnncam
+Version: 1.49.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 8284
+Depends: libc6 (>= 2.8)
+Filename: ./libnncam_1.49.1_armhf.deb
+Size: 1252248
+MD5sum: 2b6829c3bc103dd06c702294b2cc787a
+SHA1: 1c4950ce579db614e18a78abcf355715cc18f28f
+SHA256: 5109702fa12aaeebb26d6846f795c02799a33d4fc6bb7ab9a446c0fc811eb1c7
+Section: libs
+Priority: extra
+Description: Library for Levenhuk Cameras.
+
+Package: libomegonprocam
+Version: 1.53.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 2079
+Depends: libc6 (>= 2.8)
+Filename: ./libomegonprocam_1.53.2_armhf.deb
+Size: 646120
+MD5sum: da2fecc88b7b617412ec5b1d070862de
+SHA1: a661aaa62673652895e4c3df1d521666e043677f
+SHA256: 4bd5b942f5764ed4b4a6636402d9e0fe7e144119b2519ad84933fecdb2c6b5f5
+Section: libs
+Priority: extra
+Description: Library for Omegon Pro Cameras.
+
+Package: libpigpiod
+Version: 0.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 422
+Depends: libc6 (>= 2.28), libpigpiod-if2-1
+Recommends: pigpio-tools
+Replaces: pigpiod
+Filename: ./libpigpiod_0.2_armhf.deb
+Size: 113300
+MD5sum: aa3d1bfd21cb1909adbac2962990d13a
+SHA1: 23a1d64f0f60bac64f8d4975993c2963f8b12073
+SHA256: 5093df4fe66f8f8421f39badedc94a5330e58c25f4104496fa99b1558a2d6351
+Section: science
+Priority: extra
+Description: Library to control RaspberryPi GPIO
+ Library to control RaspberryPi GPIO
+ This library  only works on Raspberry Pi devices
+
+Package: libpigpiod-dbg
+Source: libpigpiod
+Version: 0.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 223
+Depends: libpigpiod (= 0.2)
+Filename: ./libpigpiod-dbg_0.2_armhf.deb
+Size: 190284
+MD5sum: 7059d26c1b83a0788337638b3d4db9d2
+SHA1: 0e809c76a446946ac2910d5f6d5c4ec042843bfe
+SHA256: dc0061bc58919c2acedcf9f56393f2d291f68fc8af06bf02a71768d6cc0a996a
+Section: debug
+Priority: extra
+Description: Library to control RaspberryPi GPIO
+ Library to control RaspberryPi GPIO
+ This library only works on Raspberry Pi devices
+ This package contains the debug symbols for the this driver, useful to investigate problems in INDI.
+Build-Ids: 0a26b555412e98c6dfda6778049f1e2e571c5b87
+
+Package: libpktriggercord
+Version: 0.85.01
+Architecture: armhf
+Maintainer: Karl Rees <indidev@karlrees.com>
+Installed-Size: 188
+Depends: libc6 (>= 2.15)
+Filename: ./libpktriggercord_0.85.01_armhf.deb
+Size: 42532
+MD5sum: bc7bae3286c40ff11046a227611626c1
+SHA1: 5ec34b5c1c8e5101bafa51a8e83b53893619a7e5
+SHA256: 74eacb82db900d35c4d1dd4e5be82da268ad311441801b4b7c4437c2ce9a36ff
+Section: libs
+Priority: extra
+Description: Library for Pentax cameras in MSC mode.
+ Uses pktrigercord - see http://pktriggercord.melda.info/.
+
+Package: libpktriggercord-dbgsym
+Source: libpktriggercord
+Version: 0.85.01
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Karl Rees <indidev@karlrees.com>
+Installed-Size: 121
+Depends: libpktriggercord (= 0.85.01)
+Filename: ./libpktriggercord-dbgsym_0.85.01_armhf.deb
+Size: 99856
+MD5sum: 4a41196e1e87536cffb7f5ee3739b069
+SHA1: 22dfa26501bbc0d5b72dc1603e2ba95d6d6725a2
+SHA256: db95d48c243deee4f4a4cc65df29f3ca865f5619cb250ba60aea62f50e01a124
+Section: debug
+Priority: optional
+Description: debug symbols for libpktriggercord
+Build-Ids: 7504229537a933dc9f1d7b670c08d72a8d088ef2
+
+Package: libplayerone
+Version: 0.8
+Architecture: armhf
+Maintainer: Hiroshi SAITO <hiro3110g@gmail.com>
+Installed-Size: 449
+Depends: libc6 (>= 2.7), libgcc-s1 (>= 3.5), libstdc++6 (>= 6), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./libplayerone_0.8_armhf.deb
+Size: 120964
+MD5sum: 69e5c7d2d5bb4c7bf156c49a7d1e5cca
+SHA1: 35ba5a832f02c331fd674d7d9a5441e8d22073af
+SHA256: a484d0b45d383581a04c4aa45784bb4f357250ac006d4a4c856c2b8378a4da82
+Section: libs
+Priority: extra
+Description: Library for Player One Astronomy's Cameras
+
+Package: libplayerone-dbgsym
+Source: libplayerone
+Version: 0.8
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Hiroshi SAITO <hiro3110g@gmail.com>
+Installed-Size: 92
+Depends: libplayerone (= 0.8)
+Filename: ./libplayerone-dbgsym_0.8_armhf.deb
+Size: 19680
+MD5sum: 34e58648fd3ce198349a7b19570dd443
+SHA1: 9a0dfb09843fe6c375162fb84522027a73806b72
+SHA256: fb67a7cc1af22d7de27fe35ea95ddb24c62ccec5f33acfe1e8992f6b1fcf3996
+Section: debug
+Priority: optional
+Description: debug symbols for libplayerone
+Build-Ids: 26935d52f1fef26407691b1d77a1c56f40af7740 94f9aea2a57b1d08e7350217600091a5aa754ca9
+
+Package: libqhy
+Version: 22.11.9
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 13446
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.5), libstdc++6 (>= 9), libusb-1.0-0 (>= 2:1.0.16), fxload
+Conflicts: firmware-ccd
+Replaces: firmware-ccd
+Filename: ./libqhy_22.11.9_armhf.deb
+Size: 901520
+MD5sum: 0ef77d16a818973c737cb1c646410914
+SHA1: 1de92cc394fc1d9a1959e2ca9fa64d22d5ae5b1f
+SHA256: 3d5581dfe468b8ce6f588f2f212a69cded1af655130635967289d4469a296bcf
+Section: libs
+Priority: extra
+Description: libqhy provide libraries to access and control QHY CCDs and Filter Wheels.
+
+Package: libqhy-dbgsym
+Source: libqhy
+Version: 22.11.9
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 448
+Depends: libqhy (= 22.11.9)
+Filename: ./libqhy-dbgsym_22.11.9_armhf.deb
+Size: 86836
+MD5sum: 06bbc5bba3e177db595a950c167c01ac
+SHA1: ad199535d518126cf6063c6b072fc4b92378465c
+SHA256: 6fd4be4b59b3e2c922c840e2d728f2f0b335559623368cdb6439e20eff91577e
+Section: debug
+Priority: optional
+Description: debug symbols for libqhy
+Build-Ids: cda2bc794e22512adb11903d543f54e72b1bbdae
+
+Package: libqsi-dbg
+Source: libqsi
+Version: 7.6.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 6252
+Depends: libqsi7 (= 7.6.1)
+Filename: ./libqsi-dbg_7.6.1_armhf.deb
+Size: 5691788
+MD5sum: 1e6c027422dfba7d06f68c6cb6f0773f
+SHA1: 00550977659eb2d89588533ec3eb18af4efaa13f
+SHA256: 23093eceb285d3cf4b92dfe3c844427a3a534a00af761bc76e8975be94aa6ac4
+Section: debug
+Priority: extra
+Description: Quantum Scientific Imaging (QSI) debug symbols.
+ .
+ This package contains debug symbols.
+Build-Ids: 144e0753962f66152ff70331f6881abf0a89e0b1 3a758a6957e7e1a73a8b11ba2863a91a472a70b8 475ba3310359b14580a58415a9774e7cc7cdb9b4
+
+Package: libqsi-dev
+Source: libqsi
+Version: 7.6.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 28
+Depends: libqsi7 (= 7.6.1)
+Filename: ./libqsi-dev_7.6.1_armhf.deb
+Size: 8228
+MD5sum: f6b6bc0254cdc70d1d7809825dfaeb2d
+SHA1: b9f799acb714bcd0ed60dc7c73181582a4169c39
+SHA256: 5780f87300a0c9828aa417ac6ae6080e1f9f5b39ce294aecf3f04a016e34ac0d
+Section: libs
+Priority: extra
+Description: Quantum Scientific Imaging (QSI) development headers.
+ .
+ This package contains the development files.
+
+Package: libqsi7
+Source: libqsi
+Version: 7.6.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 1145
+Depends: libc6 (>= 2.15), libftdi1-2 (>= 1.2), libgcc-s1 (>= 3.5), libstdc++6 (>= 5.2), libftdi1
+Conflicts: libqsi6
+Replaces: libqsi6
+Filename: ./libqsi7_7.6.1_armhf.deb
+Size: 187100
+MD5sum: 89aeffe3b56430e6e86967bdc557b678
+SHA1: a12769186bc75c559ec39df98afa93b9190d0ed0
+SHA256: 29e45b3cc1409b75c2d65f7f8c0216753f3f509765ae6620e65314ea760304f0
+Section: libs
+Priority: extra
+Description: Quantum Scientific Imaging (QSI) library.
+ .
+ This package contains the library.
+
+Package: libricohcamerasdk
+Version: 1.1.0
+Architecture: armhf
+Maintainer: Karl Rees <indidev@karlrees.com>
+Installed-Size: 1286
+Depends: libc6 (>= 2.7), libgcc-s1 (>= 3.5), libstdc++6 (>= 6), libusb-1.0-0 (>= 2:1.0.9)
+Filename: ./libricohcamerasdk_1.1.0_armhf.deb
+Size: 264184
+MD5sum: 842c295f953f7b8edabfd6bf029d6156
+SHA1: 5741846bcd38aabc205b40fe32328aefe858eb04
+SHA256: 9180b84ef7379e047f07f6ab43a7c9990b0d6e54a7af17d631096f59633b912c
+Section: libs
+Priority: extra
+Description: Library for using Pentax cameras in PTP mode with INDI.
+ Uses Ricoh Camera SDK - see https://api.ricoh/.
+
+Package: libricohcamerasdk-dbgsym
+Source: libricohcamerasdk
+Version: 1.1.0
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Karl Rees <indidev@karlrees.com>
+Installed-Size: 680
+Depends: libricohcamerasdk (= 1.1.0)
+Filename: ./libricohcamerasdk-dbgsym_1.1.0_armhf.deb
+Size: 227392
+MD5sum: f1449799955a8ee8b034c89c1be8ecca
+SHA1: cb925a446d07f050aa909dafa92a916fcd4f93e8
+SHA256: 078bfb5fcbddfaa70a93f5697edc4b5a360bc5f8234e83a64cd169c719ec8c86
+Section: debug
+Priority: optional
+Description: debug symbols for libricohcamerasdk
+Build-Ids: bc7599819ceb783a28a839f52d0a0ef88e81cede f074b2974b6314837f82e0da73d645ef028a7564
+
+Package: libsbig
+Version: 4.9.9
+Architecture: armhf
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 718
+Depends: libc6 (>= 2.28), libudev1 (>= 183), fxload
+Conflicts: libsbigudrv2
+Replaces: libsbigudrv2
+Filename: ./libsbig_4.9.9_armhf.deb
+Size: 180144
+MD5sum: 4539a7f38924cd66274e4be13153ee77
+SHA1: 7be0c015a74fc1731e580326297aa857d57a54a2
+SHA256: 184d00943012b05c9ced29642ace130a8f65b7f6f4a8537df7f50b49ef2cacbe
+Section: libs
+Priority: extra
+Description: Santa Barbra Instrument Group (SBIG) Universal Library Driver
+ The Official Santa Barbra Instrument Group (SBIG) Universal Library
+ Driver is used by applications to access and control the USB,
+ Parallel Port, and Ethernet versions of the CCD cameras and filter
+ wheels including SBIG ST-7/8/9/10/2K cameras, ST-L cameras, and
+ ST-402/1603/3200 cameras. The firmware is included for all classes of
+ cameras.
+Original-Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+
+Package: libsbig-dbgsym
+Source: libsbig
+Version: 4.9.9
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 191
+Depends: libsbig (= 4.9.9)
+Filename: ./libsbig-dbgsym_4.9.9_armhf.deb
+Size: 139532
+MD5sum: 969a55567ab13f77842af4359e5546a1
+SHA1: 59785e4932ad4555e7f1e893c4383814fbb46f03
+SHA256: 814f065f1153b20d103d885b889a9b8b7867fa2154cad3dc9eb98c8c47c93cae
+Section: debug
+Priority: optional
+Description: debug symbols for libsbig
+Build-Ids: 3a99463fef1a65191e2993ae3e38e553720ff6b7
+Original-Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+
+Package: libstarshootg
+Version: 1.48.1
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 1329
+Depends: libc6 (>= 2.8)
+Filename: ./libstarshootg_1.48.1_armhf.deb
+Size: 430676
+MD5sum: 02b5ff4ba797988080bf3fbbda1f8123
+SHA1: a897f91a7e253ee1ce0538b0fa74c17bb4b0377e
+SHA256: 24c1aa52cb172ef1a7759dbd85959500e237eb7f30dfeb772b10b7fee800041a
+Section: libs
+Priority: extra
+Description: Library for Orion Starshoot G Cameras.
+
+Package: libsvbony
+Version: 1.9.8
+Architecture: armhf
+Maintainer: Blaise-Florentin Collin <thx8411@yahoo.fr>
+Installed-Size: 4656
+Depends: libc6 (>= 2.9), libgcc-s1 (>= 3.5), libstdc++6 (>= 4.8.1)
+Conflicts: libsv305, libsv305-dbgsym
+Replaces: libsv305, libsv305-dbgsym
+Filename: ./libsvbony_1.9.8_armhf.deb
+Size: 3760824
+MD5sum: bca2f01433062f2e66c99a12b27b874f
+SHA1: c511ca9349c7dc738795ec8aeb036e2343857733
+SHA256: 511a0478b36a6c07f85534480066f8c35933e6d75949893c7a363ecf1c90df82
+Section: libs
+Priority: extra
+Description: SDK library for the SVBONY Camera
+
+Package: libsvbony-dbgsym
+Source: libsvbony
+Version: 1.9.8
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Blaise-Florentin Collin <thx8411@yahoo.fr>
+Installed-Size: 14
+Depends: libsvbony (= 1.9.8)
+Filename: ./libsvbony-dbgsym_1.9.8_armhf.deb
+Size: 2352
+MD5sum: 7e5e4e504b7a2504ae55af87ab947cfa
+SHA1: b0907fff382a6d47d891b4367f3c0f9a8cd45182
+SHA256: 5702bd9c5393253dc0d3c10e4f21a24b6e6f37d3cc2f205fcfb1d32f95149ffb
+Section: debug
+Priority: optional
+Description: debug symbols for libsvbony
+Build-Ids: 5bcd474fcb16113042d44de45dfb8d292a5dd170
+
+Package: libtoupcam
+Version: 1.53.2
+Architecture: armhf
+Maintainer: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Installed-Size: 11104
+Depends: libc6 (>= 2.8)
+Filename: ./libtoupcam_1.53.2_armhf.deb
+Size: 1548192
+MD5sum: 6ef4317f548893c89cdaa494c70035e1
+SHA1: 97b9b691611495f40f5eb709f31b4aae06bf0046
+SHA256: 21565a05751021db1d1857ac2441d0d6758f4b670eee700203728d84132a7959
+Section: libs
+Priority: extra
+Description: Library for Touptek Cameras.
+
+Package: libxisf
+Version: 0.1.3-ubuntu1
+Architecture: armhf
+Maintainer: Dušan Poizl <nou@nouspiro.space>
+Installed-Size: 388
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Filename: ./libxisf_0.1.3-ubuntu1_armhf.deb
+Size: 93372
+MD5sum: 093ff3f437e3d0edb286b9db98062b89
+SHA1: 8422e3d4a9d704fe555a95046ea62ed711d64ee7
+SHA256: 87d49cb4ba9b8a7233d6f1d3a78bf64136bdd60510ba0325815a2a3e74c165dd
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gitea.nouspiro.space/nou/libXISF
+Description: Library to load and save XISF images
+ Native format of PixInsight astroprocessing suite
+
+Package: libxisf-dbgsym
+Source: libxisf
+Version: 0.1.3-ubuntu1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Dušan Poizl <nou@nouspiro.space>
+Installed-Size: 1482
+Depends: libxisf (= 0.1.3-ubuntu1)
+Filename: ./libxisf-dbgsym_0.1.3-ubuntu1_armhf.deb
+Size: 1362424
+MD5sum: 3e57807fe5b4202e801ae18afde4bbf7
+SHA1: 63d3e3665d87708cb1a6ab2f3d7e311351aa0129
+SHA256: 6063dd4fb01dad0c445516ce6f1a95ba144db7af444f63568d4d8bd2021d4779
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libxisf
+Build-Ids: c749d86132569b0f0c1cf15eca2a0798ccd23a9d
+
+Package: libxisf-dev
+Source: libxisf
+Version: 0.1.3-ubuntu1
+Architecture: armhf
+Maintainer: Dušan Poizl <nou@nouspiro.space>
+Installed-Size: 29
+Depends: libxisf (= 0.1.3-ubuntu1), qtbase5-dev
+Filename: ./libxisf-dev_0.1.3-ubuntu1_armhf.deb
+Size: 5900
+MD5sum: a0e8e069d903e221efbd2bd427a5bcd9
+SHA1: ec6f89e92dedf48f5ae84ef5b27a20c2ee8bad22
+SHA256: 105bbca0144aa5e8b13ab9181072aa845a85b7e95f3972b39a9ba4902a652725
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://gitea.nouspiro.space/nou/libXISF
+Description: Library to load and save XISF images
+ Native format of PixInsight astroprocessing suite
+
