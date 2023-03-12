@@ -159,8 +159,6 @@ cd packages
 dpkg-scanpackages --multiversion . > Packages
 gzip -k -f Packages
 apt-ftparchive release . > Release
-gpg --default-key "Blaise-Florentin Collin (INDIgent debian repo key) <thx8411@yahoo.fr>" -abs -o - Release > Release.gpg
-gpg --default-key "Blaise-Florentin Collin (INDIgent debian repo key) <thx8411@yahoo.fr>" --clearsign -o - Release > InRelease
 
 # publishing packages to repo
 

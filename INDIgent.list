@@ -1,2 +1,2 @@
 # INDIgent armhf 32 bits INDI and INDI 3rd party repository
-deb [signed-by=/etc/apt/trusted.gpg.d/my_ppa.gpg] https://https://github.com/thx8411/indigent/tree/main/packages ./
+deb [trusted=yes] https://raw.githubusercontent.com/thx8411/indigent/main/packages ./

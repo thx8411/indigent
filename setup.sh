@@ -13,11 +13,3 @@ sudo apt -y install libaravis-dev
 #sudo apt -y install libdrm-dev
 #sudo apt -y install libcamera-dev
 #sudo apt -y install libboost-program-options-dev
-
-# create repo gpg key
-gpg --full-gen-key
-# RSA
-# 4096 bits
-# no expiration
-
-gpg --armor --export "Blaise-Florentin Collin (INDIgent debian repo key) <thx8411@yahoo.fr>" > KEY.gpg
