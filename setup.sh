@@ -21,5 +21,3 @@ gpg --full-gen-key
 # no expiration
 
 gpg --armor --export "Blaise-Florentin Collin (INDIgent debian repo key) <thx8411@yahoo.fr>" > KEY.gpg
-
-echo "deb [signed-by=/etc/apt/trusted.gpg.d/my_ppa.gpg] https://<TO DO> ./" > INDIgent.list
