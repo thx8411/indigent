@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# clean the repo after full build
+#
+
 rm -rf libXISF
 rm libxisf_0.1.3-ubuntu1_armhf.buildinfo
 rm libxisf_0.1.3-ubuntu1_armhf.changes

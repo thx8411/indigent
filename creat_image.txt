@@ -112,16 +112,16 @@
 	ssid=INDIgent
 
 	# 2.4 GHz
-	#hw_mode=g
-	#channel=7
-	#country_code=FR
+	hw_mode=g
+	channel=7
+	country_code=FR
 
 	# 5 GHz
-	hw_mode=a
-	channel=40
-	ieee80211n=1
-	require_ht=1
-	ht_capab=[HT40-][DSSS_CCK-40]
+	#hw_mode=a
+	#channel=40
+	#ieee80211n=1
+	#require_ht=1
+	#ht_capab=[HT40-][DSSS_CCK-40]
 
 	wmm_enabled=1
 	ignore_broadcast_ssid=0

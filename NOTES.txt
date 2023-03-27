@@ -1,3 +1,8 @@
+TODO :
+
+- script the INDIgent image preparation from the doc
+- work on webmin
+- tests
 
 
 

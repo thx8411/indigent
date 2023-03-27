@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# Prepare the build platform for all the INDI packages
+# needs a least 2GB of RAM (physical or swap)
+#
 
 # install packages
 sudo apt update
@@ -13,3 +17,7 @@ sudo apt -y install libaravis-dev
 #sudo apt -y install libdrm-dev
 #sudo apt -y install libcamera-dev
 #sudo apt -y install libboost-program-options-dev
+
+#
+# start "build.sh" when done
+#

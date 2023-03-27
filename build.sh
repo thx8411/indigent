@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#
+# Build full INDI packages and publish
+# needs a least 2GB of RAM (physical or swap)
+#
+
 mkdir packages
 
 # fetch, build and install xisf
@@ -162,5 +167,7 @@ apt-ftparchive release . > Release
 
 # publishing packages to repo
 
-# TODO
-
+#
+# to publish, execute "clean.sh", then "git add", "git commit" and "git push"
+# the 'INDIgent.list' file must be updated with your repository url
+#
