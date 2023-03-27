@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# create an INIDgent disk image from a Raspeberry Pi OS lite (32)
+# create an INIDgent disk image from a Raspeberry Pi OS lite (32) :
 #
 
 # Download and flash "Raspberry Pi OS Lite 32 bits" on a 8GB sd card
@@ -30,16 +30,18 @@
 
 # Get the indigent install script and start it:
 #
-#        * wget <TODO>
+#        * wget https://raw.githubusercontent.com/thx8411/indigent/main/configure.sh
 #        * cd indigent; sudo ./configure.sh
 #
 
 # add INDIgent repo and install packages
+echo "Add INDIgent repository and install packages..."
 cp INDIgent.list /etc/apt/sources.list.d/
 apt update
 apt install libindi1 libindi-data indi-bin indi-eqmod indi-sx indi-sbig indi-apogee indi-gphoto indi-qsi indi-fishcamp indi-maxdomeii indi-asi indi-aagcloudwatcher-ng indi-ffmv indi-dsi indi-qhy indi-gpsd indi-mi indi-duino indi-fli indi-nexdome indi-gpsnmea indi-armadillo-platypus indi-mgen indi-shelyak indi-nightscape indi-toupbase indi-atik indi-avalon indi-starbook indi-starbook-ten indi-astromechfoc indi-dreamfocuser indi-aok indi-talon6 indi-pentax indi-celestronaux indi-svbony indi-bresserexos2 indi-playerone indi-beefocus indi-weewx-json
 
 # install indi web manager
+echo "Install INDI web managed"
 apt-get install python3-pip
 pip3 install indiweb
 cp indiwebmanager.service /etc/systemd/system/
@@ -49,6 +51,7 @@ systemctl enable indiwebmanager
 systemctl start indiwebmanager
 
 # creat hotspot
+echo "Setting up wifi hotspot..."
 apt-get install hostapd
 apt-get install dnsmasq
 systemctl stop hostapd
@@ -72,4 +75,6 @@ systemctl unmask hostapd
 systemctl enable hostapd
 systemctl start hostapd
 
-
+# reboot
+echo "Rebooting..."
+init 6
